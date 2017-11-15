@@ -29,7 +29,7 @@ Attaching Demo Bot
 
 Our platform provides easy and seamless integration. Start configuring the demo bot and publishing your own content right away, in just a few simple steps.
 
-Take advantage of the Demo Bot Git repo we have created to help you easily monitor the content on the bot interface. Our Demo Bot Git repo’s readme file will help you set up a bot step-by-step, along with all the other critical information you needto manage the content objects. Also, you can refer to the account from our `API Document <http://app.kontikilabs.com>`_ to integrate the demo bot with your account on the Kontiki Platform. 
+Take advantage of the `Demo Bot Git repo <https://github.com/Kontikilabs/kontikilabs-sample-bot>`_ we have created to help you easily monitor the content on the bot interface. Our Demo Bot Git repo’s readme file will help you set up a bot step-by-step, along with all the other critical information you need to manage the content objects. Also, to integrate the demo bot with your account on the Kontiki Platform you can refer to our API Document below: 
 
 .. toctree::
    :maxdepth: 6
@@ -39,9 +39,7 @@ Take advantage of the Demo Bot Git repo we have created to help you easily monit
 Integrating AI
 ==============
 
-The KTL platform offers API.AI integration to help you easily create natural language understanding, based on API.AI technology.
+The KTL platform offers `API AI integration <https://github.com/Kontikilabs/kontikilabs-sample-bot#integrate-customised-conversational-experience>`_ to help you easily create natural language understanding, based on API.AI technology.
 
 You need to follow a few steps to use the integration. The first step is to get the application key from API.AI for the interaction example set created on API.AI. This key identifies your application to the API and is required for any authenticated or unauthenticated API calls. You will then need to provide this key to the bot account on the KTL platform.
-
-
 
