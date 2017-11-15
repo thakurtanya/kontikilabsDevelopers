@@ -174,15 +174,15 @@ The custom content object goes into draft flakes first. Once a flake is drafted,
 
    Upon clicking on the ‘**Add Flake**’ button, a popup appears, asking you to fill in the following 2 mandatory fields for your content object:
 
-      +---------------+--------------------------------------------+
-      |               |                                            |
-      |**Title**      |Choose a short title for your content object|
-      |               |                                            |
-      +---------------+--------------------------------------------+
-      |               |                                            |
-      |**Description**|Summarize your object content here.         |
-      |               |                                            |
-      +---------------+--------------------------------------------+
+   +---------------+--------------------------------------------+
+   |               |                                            |
+   |**Title**      |Choose a short title for your content object|
+   |               |                                            |
+   +---------------+--------------------------------------------+
+   |               |                                            |
+   |**Description**|Summarize your object content here.         |
+   |               |                                            |
+   +---------------+--------------------------------------------+
 
    Upon clicking the ‘**Submit**’ button, your content object will be saved as a draft with a unique ‘**flake ID**’, which is displayed in the ‘**ID**’ field of each flake.
 
@@ -224,14 +224,14 @@ The custom content object goes into draft flakes first. Once a flake is drafted,
 
       You can **add multiple QR** buttons with the text, using the ‘➕’ icon, displayed below the conversation you added above. On clicking on the icon a popup is prompted, requesting the following details:
 
-         +----------+-------------------------------------------------------------------+
-         |          |                                                                   |
-         |**Name**  |The text you want to display to the user.                          |
-         |          |                                                                   |
-         |          |                                                                   |
-         |**Action**|Differentiate QR buttons with the activity name they are built for.|
-         |          |                                                                   |
-         +----------+-------------------------------------------------------------------+
+      +----------+-------------------------------------------------------------------+
+      |          |                                                                   |
+      |**Name**  |The text you want to display to the user.                          |
+      |          |                                                                   |
+      |          |                                                                   |
+      |**Action**|Differentiate QR buttons with the activity name they are built for.|
+      |          |                                                                   |
+      +----------+-------------------------------------------------------------------+
 
 
       .. image:: https://s3-ap-southeast-1.amazonaws.com/kontikilabs.com/readthedocs/qr.png
@@ -251,14 +251,15 @@ The custom content object goes into draft flakes first. Once a flake is drafted,
          -  And, your flake is automatically saved.
 
 
-   - Editing Content:
+   -  Editing Content:
 
       You can alter the following in your flake content by clicking on the point you want to edit:
+
       -  The text of the points
       -  Videos, images or other graphics
       
       Once you are done with the editing, click on the ‘save’ button to display your changes on the bot. 
-    
+   
       To **update the QR button text**, click on the button you want to edit, a popup is prompted, fill in your new text in the ‘name’ field, and click on the update button to save the changes.
 
 
@@ -273,14 +274,14 @@ The custom content object goes into draft flakes first. Once a flake is drafted,
       
       To **create a category**, click on the ‘➕’ icon. A popup is prompted, requesting the following details:
          
-         +---------+-----------------------------------------+
-         |         |                                         |
-         |**Type** |The class to which your category belongs.|
-         |         |                                         |
-         |         |                                         |
-         |**Value**|The value of your category.              |
-         |         |                                         |
-         +---------+-----------------------------------------+
+      +---------+-----------------------------------------+
+      |         |                                         |
+      |**Type** |The class to which your category belongs.|
+      |         |                                         |
+      |         |                                         |
+      |**Value**|The value of your category.              |
+      |         |                                         |
+      +---------+-----------------------------------------+
       
       Click on the save button to store the actions.
 
