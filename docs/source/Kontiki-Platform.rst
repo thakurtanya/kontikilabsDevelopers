@@ -43,6 +43,7 @@ Upon successful login, you will be redirected to the ‘Bot’ page from where y
 Once you click on the ‘**Add new bot**’ option, a popup appears, asking for the following details:
       
    +-------------------+-----------------------------------------+
+   |                   |                                         |
    |**Name of the bot**| Give your bot a user-friendly name.     |
    |                   |                                         |
    |                   | Make your bot available to your users by|
