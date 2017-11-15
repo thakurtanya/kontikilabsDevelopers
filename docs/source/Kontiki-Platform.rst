@@ -168,7 +168,7 @@ The custom content object goes into draft flakes first. Once a flake is drafted,
 
    .. image:: https://s3-ap-southeast-1.amazonaws.com/kontikilabs.com/readthedocs/flow-chart.png
 
-a) *Draft flake*
+* *Draft flake*
 
    Enter into the ‘**Draft Flake**’ option to create your first bot content object.
 
@@ -238,6 +238,7 @@ a) *Draft flake*
 
       .. image:: https://s3-ap-southeast-1.amazonaws.com/kontikilabs.com/readthedocs/comparison.png
 
+
    -  Drag & Drop:
 
       Reshuffle your already written content points by dragging and dropping them at the place you want.
@@ -260,9 +261,11 @@ a) *Draft flake*
     
       To **update the QR button text**, click on the button you want to edit, a popup is prompted, fill in your new text in the ‘name’ field, and click on the update button to save the changes.
 
+
    -  Deleteing Content:
 
       Click on the point, followed by the ‘trash can’ icon to delete the point from the conversation.
+
 
    -  Categories:
 
@@ -287,6 +290,7 @@ a) *Draft flake*
 
       You can view the list of categories your bot holds, in the left navigation bar of the platform.
 
+
    -  Tags:
 
       Label your flakes with apt words that capture the gist of the content. To create tags, follow the same steps as for creating a ‘category’.
@@ -304,7 +308,7 @@ a) *Draft flake*
       -  Settings : View your bot and organisation details by clicking on the ‘settings’ icon ‘⚙’.
 
 
-b) *Publish flake*
+* *Publish flake*
 
    Mouseover on the red floating button on the right hand corner of your screen.
 
@@ -312,7 +316,8 @@ b) *Publish flake*
 
    .. image:: https://s3-ap-southeast-1.amazonaws.com/kontikilabs.com/readthedocs/publish.png
 
-c) *Schedule flake*
+
+* *Schedule flake*
 
    .. image:: https://s3-ap-southeast-1.amazonaws.com/kontikilabs.com/readthedocs/shedule.png
 
