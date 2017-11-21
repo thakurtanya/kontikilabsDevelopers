@@ -263,6 +263,7 @@ The custom content object goes into draft flakes first. Once a flake is drafted,
       To **update the QR button text**, click on the button you want to edit, a popup is prompted, fill in your new text in the ‘name’ field, and click on the update button to save the changes.
 
 
+   
    -  *Deleteing Content*:
 
       Click on the point, followed by the ‘trash can’ icon to delete the point from the conversation.
