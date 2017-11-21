@@ -168,7 +168,7 @@ The custom content object goes into draft flakes first. Once a flake is drafted,
 
    .. image:: https://s3-ap-southeast-1.amazonaws.com/kontikilabs.com/readthedocs/flow-chart.png
 
-* *Draft flake*
+* **Draft flake**
 
    Enter into the ‘**Draft Flake**’ option to create your first bot content object.
 
@@ -186,7 +186,7 @@ The custom content object goes into draft flakes first. Once a flake is drafted,
 
    Upon clicking the ‘**Submit**’ button, your content object will be saved as a draft with a unique ‘**flake ID**’, which is displayed in the ‘**ID**’ field of each flake.
 
-   -  Inside the Draft Flake:
+   -  *Inside the Draft Flake*:
 
       A flake stores information like :
 
@@ -212,7 +212,7 @@ The custom content object goes into draft flakes first. Once a flake is drafted,
 
          If you edit any of the above, you will need to save the changes by clicking on the ‘**Red Floating Button**’ and choosing the desired flake status.
 
-   -  The Content Object:
+   -  *The Content Object*:
 
       The ‘**points**’ section of the draft flake is where your content goes.
 
@@ -224,6 +224,9 @@ The custom content object goes into draft flakes first. Once a flake is drafted,
 
       You can **add multiple QR** buttons with the text, using the ‘➕’ icon, displayed below the conversation you added above. On clicking on the icon a popup is prompted, requesting the following details:
 
+
+      .. image:: https://s3-ap-southeast-1.amazonaws.com/kontikilabs.com/readthedocs/qr.png
+
       +----------+-------------------------------------------------------------------+
       |          |                                                                   |
       |**Name**  |The text you want to display to the user.                          |
@@ -233,13 +236,10 @@ The custom content object goes into draft flakes first. Once a flake is drafted,
       |          |                                                                   |
       +----------+-------------------------------------------------------------------+
 
-
-      .. image:: https://s3-ap-southeast-1.amazonaws.com/kontikilabs.com/readthedocs/qr.png
-
       .. image:: https://s3-ap-southeast-1.amazonaws.com/kontikilabs.com/readthedocs/comparison.png
 
 
-   -  Drag & Drop:
+   -  *Drag & Drop*:
 
       Reshuffle your already written content points by dragging and dropping them at the place you want.
 
@@ -251,7 +251,7 @@ The custom content object goes into draft flakes first. Once a flake is drafted,
          -  And, your flake is automatically saved.
 
 
-   -  Editing Content:
+   -  *Editing Content*:
 
       You can alter the following in your flake content by clicking on the point you want to edit:
 
@@ -263,12 +263,12 @@ The custom content object goes into draft flakes first. Once a flake is drafted,
       To **update the QR button text**, click on the button you want to edit, a popup is prompted, fill in your new text in the ‘name’ field, and click on the update button to save the changes.
 
 
-   -  Deleteing Content:
+   -  *Deleteing Content*:
 
       Click on the point, followed by the ‘trash can’ icon to delete the point from the conversation.
 
 
-   -  Categories:
+   -  *Categories*:
 
       Organize your flakes by adding apt categories. This helps you form a group of flakes sharing a particular kind of information. 
       
@@ -292,24 +292,26 @@ The custom content object goes into draft flakes first. Once a flake is drafted,
       You can view the list of categories your bot holds, in the left navigation bar of the platform.
 
 
-   -  Tags:
+   -  *Tags*:
 
       Label your flakes with apt words that capture the gist of the content. To create tags, follow the same steps as for creating a ‘category’.
 
 
 
-   -  Filters, Search, & Settings:
+   -  *Filters, Search, & Settings*:
 
       -  Filter : Narrow down the display of your flakes with the ‘category’ or ‘channel’ filters.
 
          .. image:: https://s3-ap-southeast-1.amazonaws.com/kontikilabs.com/readthedocs/filters.png
 
+      
       -  Search : Save time and use the search bar to locate flakes.
 
+      
       -  Settings : View your bot and organisation details by clicking on the ‘settings’ icon ‘⚙’.
 
 
-* *Publish flake*
+* **Publish flake**
 
    Mouseover on the red floating button on the right hand corner of your screen.
 
@@ -318,7 +320,7 @@ The custom content object goes into draft flakes first. Once a flake is drafted,
    .. image:: https://s3-ap-southeast-1.amazonaws.com/kontikilabs.com/readthedocs/publish.png
 
 
-* *Schedule flake*
+* **Schedule flake**
 
    .. image:: https://s3-ap-southeast-1.amazonaws.com/kontikilabs.com/readthedocs/shedule.png
 
