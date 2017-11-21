@@ -291,11 +291,10 @@ The custom content object goes into draft flakes first. Once a flake is drafted,
 
       You can view the list of categories your bot holds, in the left navigation bar of the platform.
 
-      
+
    -  *Tags*:
 
       Label your flakes with apt words that capture the gist of the content. To create tags, follow the same steps as for creating a ‘category’.
-
 
 
    -  *Filters, Search, & Settings*:
