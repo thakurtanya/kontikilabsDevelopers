@@ -291,7 +291,7 @@ The custom content object goes into draft flakes first. Once a flake is drafted,
 
       You can view the list of categories your bot holds, in the left navigation bar of the platform.
 
-
+      
    -  *Tags*:
 
       Label your flakes with apt words that capture the gist of the content. To create tags, follow the same steps as for creating a ‘category’.
@@ -317,12 +317,10 @@ The custom content object goes into draft flakes first. Once a flake is drafted,
 
    Out of the 3 options provided, click on the ‘Publish’ icon and your flake content will be made available to your bot users.
 
-   .. image:: https://s3-ap-southeast-1.amazonaws.com/kontikilabs.com/readthedocs/publish.png
+   .. image:: https://s3-ap-southeast-1.amazonaws.com/kontikilabs.com/readthedocs/status-change.png
 
 
 * **Schedule flake**
-
-   .. image:: https://s3-ap-southeast-1.amazonaws.com/kontikilabs.com/readthedocs/shedule.png
 
    With schedule status you can add an interval to the flake. 
 
