@@ -19,6 +19,9 @@ We understand that each query first has to pass through a model to revert a vali
 
 Alter NLU is an open source tool to train AI based conversational agents powered by deep learning. It is conceptualized by developers, for developers, enabling them to build high quality dataset for any kind of chatbots. 
 
+.. note::
+   Alter NLU is programmed to Maximize output with relatively less training data
+
 In this documnet you will
 
 Understanding Alter NLU
