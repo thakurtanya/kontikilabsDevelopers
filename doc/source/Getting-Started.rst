@@ -1,5 +1,5 @@
 ################################################
-Building Chatbot Tarining Dataset with Alter NLU
+Building Chatbot Training Dataset with Alter NLU
 ################################################
 
 The console is developed to handle multiple chatbot datasets within a single user login i.e you can add training data for any number of chatbots.
@@ -8,15 +8,17 @@ Start by creating your account from our `Alter NLU console <https://console.kont
 
 Upon clicking the ‘Sign Up’ button, an email is sent to the ID you provide above. You can log in on the console once you verify your identity via the email.
 
-You can also sign in using your Facebook or Google account.
+You can also register and login using social sites credentials of your Facebook or Google account.
+
+Below in the documnet are the steps that will guide you in building your training dataset.
 
 ==================
 Create the Dataset
 ==================
 
-Upon successful login, you will be redirected to "Create Dataset" page.
+Upon successful login, you will be redirected to the "Create Dataset" page.
 
-Get started by creating new dataset, which requires a ‘bot name’ and the industry/vertical that your bot belongs to. Once you click on the "Add" button, the dataset gets created and the you will be redirected to "Intent Page".
+Get started by creating new dataset, which requires a ``bot name`` and the ``industry/vertical`` that your bot belongs to. Once you click on the ``Add`` button, the dataset gets created and the you will be redirected to "Intent Page".
 
 =================
 Create the Intent

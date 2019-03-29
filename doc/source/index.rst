@@ -15,19 +15,19 @@ Building Chatbot Training Dataset With Alter NLU
 
 A good quality training dataset is the most critical aspect behind building a robust and intelligent chatbot . Everything depends upon how good is the training dataset for the conversational agents to understand and respond accordingly based on the user intent and context. 
 
-We understand that each query first has to pass through a model to revert a valid response to the user. To let our customers build, manage and analyse the training dataset we developed ALTER NLU. 
+We understand that each query first has to pass through a model to revert a valid response to the user. To let our customers build, manage and analyse the training dataset we developed `Alter NLU <https://console.kontikilabs.com>`_. 
 
-Alter NLU is an open source tool to train AI based conversational agents powered by deep learning. It is conceptualized by developers, for developers, enabling them to build high quality dataset for any kind of chatbots. 
+`Alter NLU <https://console.kontikilabs.com>`_ is an open source tool to train AI based conversational agents powered by deep learning. It is conceptualized by developers, for developers, enabling them to build high quality dataset for any kind of chatbots. 
 
 .. note::
-   Alter NLU is programmed to Maximize output with relatively less training data
+   Alter NLU is programmed to maximize output with relatively less training data
 
-In this documnet you will
+This guide is meant to explain each and every asspect of the console and, help you build delightful conversations for your bot.
 
 Understanding Alter NLU
 =======================
 
-The main focus of the Alter NLU console is to get rid of all the struggles involved in building a stable and good quality training data. To achieve the same, It is segregated into 3 parts:
+The main focus of the Alter NLU is to get rid of all the struggles involved in building a stable and good quality training data. To achieve the same, It is segregated into 3 parts:
 
 .. toctree::
    :maxdepth: 3
