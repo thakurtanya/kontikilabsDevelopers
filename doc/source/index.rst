@@ -22,12 +22,12 @@ We understand that each query first has to pass through a model to revert a vali
 .. note::
    Alter NLU is programmed to maximize output with relatively less training data
 
-This guide is meant to explain each and every asspect of the console and, help you build delightful conversations for your bot.
+This guide is meant to explain each and every asspect of the console and, help you build a good quality training dataset for your chatbot.
 
 Understanding Alter NLU
 =======================
 
-The main focus of the Alter NLU is to get rid of all the struggles involved in building a stable and good quality training data. To achieve the same, It is segregated into 3 parts:
+The main focus of the Alter NLU is to get rid of all the struggles involved in building a stable and good quality training data. To achieve the same, it is segregated into 3 parts:
 
 .. toctree::
    :maxdepth: 3
@@ -37,7 +37,7 @@ The main focus of the Alter NLU is to get rid of all the struggles involved in b
 Getting Started : Tutorial
 ==========================
 
-We have made the Alter NLU console easy for you to get started and build your own chatbot training dataset. This step-by-step guide begins with a tutorial on creating your account and adding your first chatbot dataset. Later, we demonstrate how to manage and analyze customized training for your conversational agents in real-time.
+We have made the Alter NLU console easy for you to get started and build your own chatbot training dataset. This step-by-step guide begins with a tutorial on creating your account and adding your first chatbot dataset. We also demonstrate how to manage and analyze customized training dataset in real-time.
 
 In this guide, for the ease of reference and explanation, we are going to use e-commerce dataset as an example that will train a chatbot for purchasing a branded laptop.
 
