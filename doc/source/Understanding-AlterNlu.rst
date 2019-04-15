@@ -16,9 +16,9 @@ For Example ::
 
 There are 2 type of intents:
 
-	-	First, which do not map to any keyword, but are simple and direct phrases like an intent named “greet” which will hold training phrases as 
+	-	First, which do not map to any keyword, but are simple and direct phrases like an intent named “greet” which will hold training phrases as :: 
 									
-									“Hey there” or  “Hi”.
+			“Hey there” or  “Hi”.
 									
 	-	Second, which can have multiple or single keywords(entities) in the training phrase which we want to extract from the user query as explained in Fig. 1.1 below. 
 
