@@ -10,7 +10,8 @@ Intents are what you expect users to say and what are their intentions. It descr
 
 For Example ::
 
-		If the user types "I want to read politcal news", the user's intent here is to retrive a bunch of politcal articles.
+		If the user types "I want to read politcal news", the user's intent here is to retrive
+		a bunch of politcal articles.
 
 There are 2 type of intents:
 
