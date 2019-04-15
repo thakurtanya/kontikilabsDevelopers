@@ -6,9 +6,11 @@ Understanding Alter NLU
 Intents
 =======
 
-Intents are what you expect users to say and what are his intentions. It describes the context of the expression that the user says or in simple terms what the user probably meant to say.
+Intents are what you expect users to say and what are their intentions. It describes the context of the expression that the user says or in simple terms what the user probably meant to say.
 
-For Example : If the user types "I want to read politcal news", the user's intent here is to retrive a bunch of politcal articles.
+For Example ::
+
+		If the user types "I want to read politcal news", the user's intent here is to retrive a bunch of politcal articles.
 
 There are 2 type of intents:
 
@@ -50,7 +52,7 @@ Like in  Fig. 1.1, the brand_name and processor_gen are the 2 entities in our co
 										Get me a PC embedded with a Seven Generation Processor.
 
 		In Alter NLU you can maintain an inventory of similar words like, laptop and PC, in the form of entities, and train it only for a single synonym. 
-
+		
 	-	*Using Natural Language Processing for entity extraction*
 
 		Our engineers have incorporated Natural Language Processing (NLP) for entity extraction which makes the bot intelligent to handle sentences that carry split entity synonyms.
