@@ -23,7 +23,12 @@ There are 2 type of intents:
 									
 	-	Second, which can have multiple or single keywords (entities) in the training phrase which we want to extract from the user query as explained in Fig. 1.1 below.
 
-	.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/intent-mapping.png   
+	.. figure:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/intent-mapping.png
+    :align: center
+    :alt: alternate text
+    :figclass: align-center
+
+    figure are like images but with a caption
 
 ========
 Entities
