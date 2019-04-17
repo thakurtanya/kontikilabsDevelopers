@@ -56,5 +56,5 @@ Here, we will be covering how you can build a simple dataset for your e-commerce
 .. toctree::
    :maxdepth: 7
    
-   ecomm-bot
+   Ecomm-Bot
 
