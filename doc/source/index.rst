@@ -54,7 +54,7 @@ This step-by-step guide begins with a tutorial on creating your account and addi
 Here, we will be covering how you can build a simple dataset for your e-commerce chatbot and will point out those smartly handled pain points by our engineers which will make your dataset robust and complete.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 7
    
    ecomm-bot
 
