@@ -12,7 +12,8 @@ For Example :
 
 		If the user types : 
 		*I want to read politcal news*
-		his intent here is to retrive a bunch of politcal articles.
+		
+		His intent here is to retrive a bunch of politcal articles.
 
 There are 2 type of intents:
 
