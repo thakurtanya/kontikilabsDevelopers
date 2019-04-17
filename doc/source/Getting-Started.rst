@@ -40,9 +40,9 @@ Create Entities
 -	If by mistake you map a wrong keyword to an entity, you can delete it and map a new one anytime.
 -	Finally, save your dataset.
 
-==========================================
+=================================
 Analyse your Dataset with Reports
-==========================================
+=================================
 -	This section highlights the training data that requires improvement and enhancements. It is programmed to analyse and present real-time changes required in the dataset in an easy-to-understand tabular and graphical display. If your training dataset needs work, it will be highlighted in the relevant reports. Click on the tool tip icon next to each of the section title for recommendations. Below listed are the key functions that form the Report:
 
 -  Illustrating Intent Distribution in the form of a pie chart.
@@ -51,9 +51,9 @@ Analyse your Dataset with Reports
 -  Intent - Sentence conflicts table alerts about the training sentence(s) you may have added in multiple intents by mistake.
 -  Handling training bias by gg the name of intents lacking enough training expressions as compared to other intents.
 
-=========================
+================
 Download Dataset
-=========================
+================
 -	The download option will be enabled only when the health of the training dataset is good for training models. It must include the pointers listed below:
 
 	-	Each intent must contain at least 3 unique training sentences.

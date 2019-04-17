@@ -35,15 +35,15 @@ The main focus of the Alter NLU is to get rid of all the struggles involved in b
    
    Understanding-AlterNlu
 
-The Data Manipulation
-=====================
+Alter NLU Features and other Data Manipulation 
+==============================================
 
-To maintain the dataset standards we apply dynamic algorithims to perform data manipulation in an efficient manner.
+From interactive user-interface to getting real-time report of training dataset. Alter NLU provides all the necesaary features required to create a robust dataset. Click on the link below to have a brief overview of what all we include in this open source tool to train AI based conversational agents.
 
 .. toctree::
    :maxdepth: 2
    
-   Data-Manipulation
+   AlterNLU-Features
 
 Building an E-commerce Chatbot
 ==============================
