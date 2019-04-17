@@ -1,6 +1,6 @@
-#######################
-Understanding Alter NLU
-#######################
+#####################
+The Data Manipulation
+#####################
 
 how we are manipulating your training data in a more efficient way.
 

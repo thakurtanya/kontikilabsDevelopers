@@ -34,25 +34,27 @@ The main focus of the Alter NLU is to get rid of all the struggles involved in b
    
    Understanding-AlterNlu
 
-Getting Started : Tutorial
-==========================
-
-We have made the Alter NLU console easy for you to get started and build your own chatbot training dataset. This step-by-step guide begins with a tutorial on creating your account and adding your first chatbot dataset. We also demonstrate how to manage and analyze customized training dataset in real-time.
-
-In this guide, for the ease of reference and explanation, we are going to use e-commerce dataset as an example that will train a chatbot for purchasing a branded laptop.
-
-.. toctree::
-   :maxdepth: 2
-   
-   Getting-Started
-
-
 The Data Manipulation
 =====================
 
-how we are manipulating your training data in a more efficient way.
+To maintain the dataset standards we apply dynamic algorithims to perform data manipulation in an efficient manner.
 
 .. toctree::
    :maxdepth: 2
    
    Data-Manipulation
+
+Building an E-commerce Chatbot
+==============================
+
+We have made the Alter NLU console easy for you to get started and build your own chatbot training dataset.
+
+This step-by-step guide begins with a tutorial on creating your account and adding your first chatbot dataset. We also demonstrate how to manage and analyze customized training dataset in real-time.
+
+Here, we will be covering how you can build a simple dataset for your e-commerce chatbot and will point out those smartly handled pain points by our engineers which will make your dataset robust and complete.
+
+.. toctree::
+   :maxdepth: 2
+   
+   ecomm-bot
+
