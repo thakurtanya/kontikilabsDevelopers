@@ -28,21 +28,11 @@ Get real time Report of training data if there’s any issue
 
 A dedicated reports page which gives you the insights of all the errors and warnings that might affect the training of the bot or make it perform less efficiently.
 
--	**Intent Distribution:**
-	It represents that number of intents created as shown in fig 1.3. It also represents the numerical proportions for the number of sentences present in each of the intents(count) and their respective percentages(count percent).
-
--	**Figuring out the intents that require more training sentences:**
-	It reports the specific intents that have less number of training sentences than the threshold set i.e 3 per intent. Notifies the user with the name of the intents lacking enough training expressions as compared to the other intents in the bot.
-
--	**Listing out the limitations in the entity section:**
-	Reports about the name of the entities which have been defined, but the user might not have formed any training sentence with it in the intent section. The other reason could be that the user might have mistakenly deleted the entity from the intent section but forgot to delete the same from the entity section.
-
--	**Examines the training dataset to extract the untagged entities:**
-	Lists out keywords which have been tagged as an entity in intent but, the same keyword also occurs untagged in the training sentence of another intent.
-	Notifies the user that they might have skipped tagging the keyword as an entity in the other intent mentioned.
-
--	**Captures repetition of training sentence**
-	Informs about the training sentence(s) which the user might have added in multiple intents by mistake. The console alerts this to the user with an error message at the top of the reports section.
+-	Intent Distribution in the form of a pie chart.
+-	Figuring out the intents that require more training sentences.
+-	Listing out the limitations in the entity section.
+-	Examines the training dataset to extract the untagged entities.
+-	Captures repetition of training sentence.
 
 =================================================================
 Download the training dataset in 2 formats - Alter NLU & RASA NLU

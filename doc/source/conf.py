@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'AlterNlu'
+project = 'Alter Nlu - Build, manage and analyse the training for AI powered chatbots'
 copyright = '2019, Tanya Thakur'
 author = 'Tanya Thakur'
 
