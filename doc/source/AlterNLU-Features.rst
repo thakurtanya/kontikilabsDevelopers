@@ -1,6 +1,6 @@
-##############################################
-Alter NLU Features and other Data Manipulation 
-##############################################
+################################################
+Alter NLU Console Features and Data Manipulation  
+################################################
 
 ================================================
 Interactive UI to build and manage training data
@@ -44,9 +44,9 @@ A dedicated reports page which gives you the insights of all the errors and warn
 -	**Captures repetition of training sentence**
 	Informs about the training sentence(s) which the user might have added in multiple intents by mistake. The console alerts this to the user with an error message at the top of the reports section.
 
-=============================================================
-Download the training dataset in 2 formats - Alter NLU & RASA
-=============================================================
+=================================================================
+Download the training dataset in 2 formats - Alter NLU & RASA NLU
+=================================================================
 
 The download button will get activated only when user meets the below threshold requirements -
 
@@ -60,20 +60,9 @@ Once you have rectified all the errors, you will be able to download the dataset
 	.. note::
 		If you are using RASA NLU, you can quickly create the dataset using Alter NLU Console and Download it in RASA NLU format. We have updated our console for hassle free data creation which is less prone to mistakes.
 
-========
-Rest API
-========
-Supported for both training and parsing.
-
-=====================
-Continuous deployment
-=====================
-
-New model on updated data will be automatically available to parse once training completed.
-
-=====================
-The Data Manipulation
-=====================
+=================
+Data Manipulation
+=================
 
 To maintain the dataset standards we apply dynamic algorithims to perform data manipulation in an efficient manner. Below is an example to illustrate how we are manipulating your training data for better accuracy.
 

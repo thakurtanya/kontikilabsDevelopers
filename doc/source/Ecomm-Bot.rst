@@ -94,21 +94,6 @@ Once you have rectified all the errors, you will be able to download the dataset
 .. note::
 	If you are using RASA NLU, you can quickly create the dataset using Alter NLU Console and Download it in RASA NLU format. We have updated our console for hassle free data creation which is less prone to mistakes.
 
-===============================
-Alter NLU Updates : v1.0.0-beta
-===============================
-
-**Intent Model**
-
-We have used Convolutional Neural Networks (CNN) based model to capture the intent. Further, the use of custom validation algorithm and matthews correlation coefficient as accuracy metric makes the intent model robust.
-
-.. note::
-	The user has to train the sentence for one of the synonyms and the remaining are handled by our console code.
-
-**Entity Model**
-
-In this version we have replaced the previous Flashtext and FuzzyWuzzy based entity extraction method with a CRF based Entity Recognition model.
-
 ===============
 Build Your Bot:
 ===============
@@ -118,18 +103,6 @@ Go to Git Repository from the link below:
 
 Next, go through the README.MD file and start executing the steps as mentioned.
 
-**Below is an example along with a detailed explanation of the benefits of using this new pipeline.**
-
-**Elaboration of the above chatbot response:**
-
--	According to the context of the user query, the model successfully recognises the search product intent along with the confidence score.
--	This model handles out-of-vocabulary words to some extent. 
-	The term ‘out-of-vocabulary words’ refers to those words which are not present in the training data of the chatbot.
-	For example, If you take a look at the example above, the parsed_value “799k” is not present in the training data used to train the “ecomm-bot” whose entity has been recognised accurately as “price”.
--	The CRF model was able to recognise the entity accurately, because it considers the sentence structure of the user query.
--	If you’re familiar with other bot frameworks, then you might not have come across a key like “parsed_value”. The main goal	  to add this key in the response is to assist developers to directly use the “parsed_value” if needed. 
-	In the example above, the developer might need the exact value of entities such as “price” that is in the user query for further usage. In this case it’s “799k”.
--	Also, if you’re an existing user of Alter NLU it needs to be pointed out that the “category” key in the response has been renamed to “name”.
 
 
 

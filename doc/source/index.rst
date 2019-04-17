@@ -35,8 +35,8 @@ The main focus of the Alter NLU is to get rid of all the struggles involved in b
    
    Understanding-AlterNlu
 
-Alter NLU Features and other Data Manipulation 
-==============================================
+Alter NLU Console Features and Data Manipulation  
+================================================
 
 From interactive user-interface to getting real-time report of training dataset. Alter NLU provides all the necesaary features required to create a robust dataset. Click on the link below to have a brief overview of what all we include in this open source tool to train AI based conversational agents.
 
@@ -44,6 +44,16 @@ From interactive user-interface to getting real-time report of training dataset.
    :maxdepth: 2
    
    AlterNLU-Features
+
+Alter NLU GitHub Repo Pipeline
+==============================
+
+From interactive user-interface to getting real-time report of training dataset. Alter NLU provides all the necesaary features required to create a robust dataset. Click on the link below to have a brief overview of what all we include in this open source tool to train AI based conversational agents.
+
+.. toctree::
+   :maxdepth: 2
+   
+   GitHub-Pipeline
 
 Building an E-commerce Chatbot
 ==============================

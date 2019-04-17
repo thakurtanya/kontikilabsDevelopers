@@ -24,9 +24,9 @@ copyright = '2019, Tanya Thakur'
 author = 'Tanya Thakur'
 
 # The short X.Y version
-version = ''
+version = 'v1.0.0-beta'
 # The full version, including alpha/beta/rc tags
-release = '0.1'
+release = 'v1.0.0-beta'
 
 
 # -- General configuration ---------------------------------------------------
