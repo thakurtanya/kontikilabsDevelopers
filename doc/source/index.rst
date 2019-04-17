@@ -1,13 +1,4 @@
-.. image:: https://docs.kontikilabs.com/img/Alter_NLU_02.png 
-   :height: 75px
-   :width: 190px
-   :align: left
-
-.. image:: https://docs.kontikilabs.com/img/logo-color.png
-   :height: 75px
-   :width: 190px
-   :align: right
-
+.. image:: https://docs.kontikilabs.com/img/Alter_NLU_02.png  
 
 #################################################
 Building Chatbot Training Dataset With Alter NLU
