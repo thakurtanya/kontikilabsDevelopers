@@ -10,23 +10,23 @@ Rest API supported for both the below training and parsing queries.
 
 -	REST API training ::
 
-	http://<ip_address>:5001/train
-	Method : POST
-	Accept / Content_type : application/json
-	Data : training_data file from Kontiki Platform.
+		http://<ip_address>:5001/train
+		Method : POST
+		Accept / Content_type : application/json
+		Data : training_data file from Kontiki Platform.
 
-	curl -H "Content-Type: application/json" --data @<file path> http://localhost:5001/train
+		curl -H "Content-Type: application/json" --data @<file path> http://localhost:5001/train
 
 -	Rest API parse query ::
 	
-	http://<ip_address>:5001/parse
-	Method : POST
-	Accept / Content_type : application/json
-	Data : {"text": "<your_query>"}
+		http://<ip_address>:5001/parse
+		Method : POST
+		Accept / Content_type : application/json
+		Data : {"text": "<your_query>"}
 
-===============================
-Alter NLU Updates : v1.0.0-beta
-===============================
+======================================
+v1.0.0-beta : The Engineering Involved
+======================================
 
 **Intent Model**
 
