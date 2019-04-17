@@ -48,7 +48,10 @@ From interactive user-interface to getting real-time report of training dataset.
 Alter NLU GitHub Repo Pipeline
 ==============================
 
-From interactive user-interface to getting real-time report of training dataset. Alter NLU provides all the necesaary features required to create a robust dataset. Click on the link below to have a brief overview of what all we include in this open source tool to train AI based conversational agents.
+Here, we will be covering the GitHub Repo Pipeline and will point out those smartly handled pain points by our engineers which will make your dataset robust and complete. 
+
+The guide provides a detailed explanation of the benefits of using the Alter NLU pipeline with a query example.
+
 
 .. toctree::
    :maxdepth: 2
@@ -62,7 +65,7 @@ We have made the Alter NLU console easy for you to get started and build your ow
 
 This step-by-step guide begins with a tutorial on creating your account and adding your first chatbot dataset. We also demonstrate how to manage and analyze customized training dataset in real-time.
 
-Here, we will be covering how you can build a simple dataset for your e-commerce chatbot and will point out those smartly handled pain points by our engineers which will make your dataset robust and complete.
+In this guide, for the ease of reference and explanation, we are going to use e-commerce dataset as an example that will train a chatbot for purchasing items.
 
 .. toctree::
    :maxdepth: 7

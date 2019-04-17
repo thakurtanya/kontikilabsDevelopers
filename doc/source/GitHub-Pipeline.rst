@@ -1,4 +1,8 @@
 
+##############################
+Alter NLU GitHub Repo Pipeline
+##############################
+
 ========
 Rest API 
 ========
@@ -35,9 +39,9 @@ We have used Convolutional Neural Networks (CNN) based model to capture the inte
 
 In this version we have replaced the previous Flashtext and FuzzyWuzzy based entity extraction method with a CRF based Entity Recognition model.
 
-============================================
-**Elaboration of the above chatbot response
-============================================
+=========================================
+Elaboration of the above chatbot response
+=========================================
 
 Below is an example along with a detailed explanation of the benefits of using this new pipeline.
 
