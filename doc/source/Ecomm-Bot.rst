@@ -41,7 +41,7 @@ Building Entities:
 
 The e-commerce chatbot should be trained to handle queries like:
 
-User says : I want to buy **apple** **mobile** worth **60K**
+User says : I want to buy **apple** **mobile** worth **60K**.
 
 So, I plan to create 3 entities that will extract the:
 	-	brand
