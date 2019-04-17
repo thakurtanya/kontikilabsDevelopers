@@ -21,7 +21,9 @@ There are 2 type of intents:
 									
 			“Hey there” or  “Hi”.
 									
-	-	Second, which can have multiple or single keywords(entities) in the training phrase which we want to extract from the user query as explained in Fig. 1.1 below. 
+	-	Second, which can have multiple or single keywords (entities) in the training phrase which we want to extract from the user query as explained in Fig. 1.1 below.
+
+.. image:: https://github.com/thakurtanya/kontikilabsDevelopers/blob/master/images/intent-mapping.png   
 
 ========
 Entities
