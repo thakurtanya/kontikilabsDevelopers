@@ -6,7 +6,8 @@ Alter NLU Console Features and Data Manipulation
 Interactive UI to build and manage training data
 ================================================
 
-			.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/alter-nlu-ui.gif   
+	.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/alter-nlu-ui.gif   
+	   :align: center
 
 **Intent : Create, Modify, Delete intent and intent specific example sentences.**
 
