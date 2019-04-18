@@ -20,6 +20,8 @@ We give filter functionalities for entity name, reference value and entity speci
 
 		Also, if you change the ‘Reference Value’ in the entity section the same will be reflected dynamically in the intent section, and vice versa.
 
+	.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/alter-nlu-ui.gif   
+
 ==========================================================
 Get real time Report of training data if there’s any issue
 ==========================================================

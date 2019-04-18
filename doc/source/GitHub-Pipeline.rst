@@ -54,7 +54,7 @@ Below is an example along with a detailed explanation of the benefits of using t
 	For instance, 
 	You trained in ALter NLU for the sentence - 
 	
-	*I wanna to purchase apple mobile worth 60k*
+	*I want to purchase apple mobile worth 60k*
 	
 	Now, take a look at the input JSON, formed based on the user query in the imange above. 
 	Even though the **parsed_value**, “799k” may not be present in your training dataset, the output recognises the entity accurately as “price”.
