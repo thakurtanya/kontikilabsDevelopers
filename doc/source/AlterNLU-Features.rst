@@ -10,10 +10,12 @@ Interactive UI to build and manage training data
 	   :align: center
 
 **Intent : Create, Modify, Delete intent and intent specific example sentences.**
+
 We give filter functionalities for intent name and intent specific training sentences to help user modify the data quickly.
 We also give the search entity functionality in the entity selection dropdown when selecting from the  training sentences.
 
 **Entity : Create, Modify, Delete entity and entity specific reference value and synonyms.**
+
 We give filter functionalities for entity name, reference value and entity specific synonyms to help user modify the data quickly.
 
 	.. note::

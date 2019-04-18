@@ -6,6 +6,8 @@ The console is developed to handle multiple chatbot datasets within a single use
 
 Start by creating your account from our `Alter NLU console <https://console.kontikilabs.com>`_
 
+	.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/home-page.png   
+
 Upon clicking the ‘Sign Up’ button, an email is sent to the ID you provide above. You can log in on the console once you verify your identity via the email.
 
 You can also register and login using social sites credentials of your Facebook or Google account.
@@ -21,7 +23,7 @@ Upon successful login, you will be redirected to the "Create Dataset" page.
 	.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/create-dataset.png   
 
 Get started by creating new dataset, which requires a ``bot name`` and the ``industry/vertical`` that your bot belongs to. Here, we are going to name our bot as - "ecomm-bot" and the domain will be "E-commerce".
-Once you click on the ``Add`` button, the dataset gets created and you will be redirected to "Intent Page".
+Once you click on the "Add" button, the dataset gets created and you will be redirected to "Intent Page".
 
 =======================================================
 Building no keyword Intents (Intents with no entities):
@@ -39,9 +41,9 @@ This intent will hold all the user queries asking about the current sales, vouch
 
 Remember to train the dataset with expressions which contain words like — sales, vouchers, etc, as these words will keep the “ongoing_offers” intent unique from other non-keyword intents.
 
-==================
-Building Entities:
-==================
+=================
+Building Entities
+=================
 
 The e-commerce chatbot should be trained to handle queries like:
 
@@ -59,19 +61,20 @@ from the user query.
 
 	.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/brand-entity.png   
 
--	Similarly create other entities, add the ‘Reference Value’ and their synonyms. Like a user can write ‘loui vuitton’ (our Reference Value) as ‘LV’ or ‘Louis Vuitton’ (the synonymns for ‘loui vuitton').
+-	Similarly create other entities, add the ‘Reference Value’ and their synonyms. Like a user can write ‘loui vuitton’ (our Reference Value) as ‘lv’ or ‘Louis Vuitton’ (the synonymns for ‘loui vuitton').
 
 	.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/lv.png   
 
 -	Similarly, create values and synonyms for the other fields and finally, save your dataset.
 
-===============================
-Building Intents with Entities:
-===============================
+==============================
+Building Intents with Entities
+==============================
 
 For queries as stated in the above section, dataset should have an intent that will store all the possible user queries from which the bot should be extracting the entities.
 
 Create an intent with the name "search-product" and go to the training phrase section of the intent and start writing the expected user queries. 
+
 For instance, “I want to buy **apple** **mobile** worth **60K**”. From this text, tag the information you want to extract and work upon.
 
 	.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/intent-with-entities.png   
