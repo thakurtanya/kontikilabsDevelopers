@@ -49,13 +49,14 @@ Like in the image above, the "price", "product-type" and "brand" are the 3 entit
 
 		To ensure that the training stats are appropriate, we show alerts and warnings in the report section of the console.
 
-		For example, if a user wants to buy a laptop with different specifications, he/she can request a query like ::
+		For example, if a user wants to buy a laptop with different specifications, he/she can request a query like:
 
 			.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/query-1.png   
 
-		But the same query can be asked in a different style like ::
+		But the same query can be asked in a different style like:
 
 			.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/query-2.png   
+
 
 		In Alter NLU you can maintain an inventory of similar words like, laptop and PC, in the form of entities, and train it only for a single synonym.
 
