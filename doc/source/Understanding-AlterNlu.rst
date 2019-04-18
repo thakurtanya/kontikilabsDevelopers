@@ -21,23 +21,24 @@ There are 2 type of intents:
 									
 			“Hey there” or  “Hi”.
 									
-	-	Second, which can have multiple or single keywords (entities) in the training phrase which we want to extract from the user query as explained in Fig. 1.1 below.
+	-	Second, which can have multiple or single keywords (entities) in the training phrase which we want to extract from the user query as demonstrated in the image below.
 
-	.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/intent-mapping.png   
+		.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/intent-mapping.png   
 
 ========
 Entities
 ========
 
 Entities describe the piece of information you would want to extract from the expressions/messages of the user.
-Like in  Fig. 1.1, the “brand_name“ and “processor_gen“ are the 2 entities in our console that will be mapped to their respective “Reference Value“ and “Synonyms“ values.
+
+Like in the image above, the "price", "product-type" and "brand" are the 3 entities in our console that will be mapped to their respective “Reference Value“ and “Synonyms“ values.
 
 
-	**How Intents and Entities work to produce maximum output with relatively less training data?**
+**How Intents and Entities work to produce maximum output with relatively less training data?**
 
 	-	*The intent | sentence ratio. Manage inventory of synonyms with entities*
 		
-		The major obstacle in building an intelligent Chatbot is, interpreting various patterns and styles user can opt for to ask a query, and train them for all the possible approaches.
+		The major obstacle in building an intelligent chatbot is, interpreting various patterns and styles user can opt for to ask a query, and train them for all the possible approaches.
 
 		Unlike a few other NLP softwares for training bots, we try to provide optimum results when there are less training samples. Although, the more you train, the better is the outcome.
 
@@ -50,15 +51,15 @@ Like in  Fig. 1.1, the “brand_name“ and “processor_gen“ are the 2 entiti
 
 		For example, if a user wants to buy a laptop with different specifications, he/she can request a query like ::
 
-										I want to buy a laptop with 7th Gen processor.
+			.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/query-1.png   
 
 		But the same query can be asked in a different style like ::
 
-										Get me a PC embedded with a Seven Generation Processor.
+			.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/query-2.png   
 
-		In Alter NLU you can maintain an inventory of similar words like, laptop and PC, in the form of entities, and train it only for a single synonym. 
+		In Alter NLU you can maintain an inventory of similar words like, laptop and PC, in the form of entities, and train it only for a single synonym.
 
-		
+
 	-	*Using Natural Language Processing for entity extraction*
 
 		Our engineers have incorporated Natural Language Processing (NLP) for entity extraction which makes the bot intelligent to handle sentences that carry split entity synonyms.
