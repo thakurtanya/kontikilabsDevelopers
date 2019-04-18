@@ -60,7 +60,6 @@ Like in the image above, the "price", "product-type" and "brand" are the 3 entit
 
 		In Alter NLU you can maintain an inventory of similar words like, laptop and PC, in the form of entities, and train it only for a single synonym.
 
-
 	-	*Using Natural Language Processing for entity extraction*
 
 		Our engineers have incorporated Natural Language Processing (NLP) for entity extraction which makes the bot intelligent to handle sentences that carry split entity synonyms.
