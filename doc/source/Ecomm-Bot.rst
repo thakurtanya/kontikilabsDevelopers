@@ -18,6 +18,8 @@ Create the Dataset
 
 Upon successful login, you will be redirected to the "Create Dataset" page.
 
+	.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/create-dataset.png   
+
 Get started by creating new dataset, which requires a ``bot name`` and the ``industry/vertical`` that your bot belongs to. Here, we are going to name our bot as - "ecomm-bot" and the domain will be "E-commerce".
 Once you click on the ``Add`` button, the dataset gets created and you will be redirected to "Intent Page".
 
@@ -32,6 +34,8 @@ The intents like “greet” and “exit” are the generic intents every bot sh
 -	Save the “ongoing_offers” intent using the “SAVE” button on the top right corner. 
 
 This intent will hold all the user queries asking about the current sales, vouchers in our e-commerce chatbot.
+
+	.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/ongoing-offers.png   
 
 Remember to train the dataset with expressions which contain words like — sales, vouchers, etc, as these words will keep the “ongoing_offers” intent unique from other non-keyword intents.
 
@@ -52,25 +56,38 @@ from the user query.
 
 -	Create an entity "brand" by using the “ADD ENTITY” option.
 -	The "brand" entity will contain "Reference Value” as the main brand name (like apple) as well as synonyms that the user may refer to a particular brand that your chatbot endorses.
--	Similarly cretae other entities, add the ‘Reference Value’ and their synonyms. Like a user can write ‘loui vuitton’ (our Reference Value) as ‘LV’ or ‘Louis Vuitton’ (the synonymns for ‘loui vuitton').
+
+	.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/brand-entity.png   
+
+-	Similarly create other entities, add the ‘Reference Value’ and their synonyms. Like a user can write ‘loui vuitton’ (our Reference Value) as ‘LV’ or ‘Louis Vuitton’ (the synonymns for ‘loui vuitton').
+
+	.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/lv.png   
+
 -	Similarly, create values and synonyms for the other fields and finally, save your dataset.
 
 ===============================
 Building Intents with Entities:
 ===============================
 
-For queries as stated in the above section, dataset should have an intent that will store all the possible user queries from which the bot should be extracting the entities (like “search-product” in this case). As stated in the image below.
+For queries as stated in the above section, dataset should have an intent that will store all the possible user queries from which the bot should be extracting the entities.
 
 Create an intent with the name "search-product" and go to the training phrase section of the intent and start writing the expected user queries. 
 For instance, “I want to buy **apple** **mobile** worth **60K**”. From this text, tag the information you want to extract and work upon.
+
+	.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/intent-with-entities.png   
+
 
 For the developers ease we have built the console in such a manner that each ‘Selected Value’ in the intent section can be linked to a ‘Reference Value’ of your choice.
 
 Like in the images below, you can see in the intent section:
 
-Selected Value : 60k, 2k both have same ‘Reference Value’ i.e price-range
+*Selected Value : 60k, 2k both have same ‘Reference Value’ i.e price-range*
 
-In the entity section, every price-range example is defined in the same “Reference Value”
+	.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/ref-value-example.png   
+
+*In the entity section, every price-range example is defined in the same “Reference Value”*
+
+	.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/price-range.png   
 
 .. note::
 	If you change the ‘Reference Value’ in the entity section the same will be reflected dynamically in the intent section, and vice versa.
