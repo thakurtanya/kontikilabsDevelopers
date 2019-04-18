@@ -6,6 +6,8 @@ Alter NLU Console Features and Data Manipulation
 Interactive UI to build and manage training data
 ================================================
 
+			.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/alter-nlu-ui.gif   
+
 **Intent : Create, Modify, Delete intent and intent specific example sentences.**
 
 We give filter functionalities for intent name and intent specific training sentences to help user modify the data quickly.
@@ -19,8 +21,6 @@ We give filter functionalities for entity name, reference value and entity speci
 		Whenever an entity is tagged in the sentence, it is automatically mapped in the synonyms of the corresponding reference value.
 
 		Also, if you change the ‘Reference Value’ in the entity section the same will be reflected dynamically in the intent section, and vice versa.
-
-	.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/alter-nlu-ui.gif   
 
 ==========================================================
 Get real time Report of training data if there’s any issue
