@@ -38,38 +38,40 @@ Like in the image above, the "price", "product-type" and "brand" are the 3 entit
 
 	-	*The intent | sentence ratio. Manage inventory of synonyms with entities*
 		
-		The major obstacle in building an intelligent chatbot is, interpreting various patterns and styles user can opt for to ask a query, and train them for all the possible approaches.
+		The primary obstacle in building an intelligent chatbot is interpreting the varied patterns and expressions that a user may adopt when posing a query and training it for all possible approaches.
 
-		Unlike a few other NLP softwares for training bots, we try to provide optimum results when there are less training samples. Although, the more you train, the better is the outcome.
-
-		For good results, the Alter NLU console requires a minimum of 3 training sample per intent. Also, Alter NLU needs only a single synonym training sample for each entity reference value.
+		Unlike a few other NLP applications for training bots, we try to provide optimum results even when there are fewer training samples. However, as a rule of thumb, the more you train your bot, the better the outcome
 
 		.. note::
-		   Maximize output with relatively less training data
+		   For good results, the console requires a minimum of 3 training samples per intent. Also, Alter NLU needs only a single synonym training sample for each entity reference value.
 
-		To ensure that the training stats are appropriate, we show alerts and warnings in the report section of the console.
+		To ensure that the training stats are appropriate, we show alerts and warnings in the reports section of the console.
 
-		For example, if a user wants to buy a laptop with different specifications, he/she can request a query like:
+		For example, if a user wants to buy a laptop with certain specifications, he or she may pose a query like:
 
 			.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/query-1.png   
 
-		But the same query can be asked in a different style like:
+		The same query may be framed differently like:
 
 			.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/query-2.png   
 
 
-		In Alter NLU you can maintain an inventory of similar words like, laptop and PC, in the form of entities, and train it only for a single synonym.
+		Our console allows you to maintain an inventory of related words such as “laptop” and “PC” in the form of entities, and train it only for a single synonym. This is illustrated below:
+
+			.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/synonym-value.png   
+
+		So, all you need to do is add one expression in the intent containing any one of the synonyms and your bot is good to go.
+
 
 	-	*Using Natural Language Processing for entity extraction*
 
-		Our engineers have incorporated Natural Language Processing (NLP) for entity extraction which makes the bot intelligent to handle sentences that carry split entity synonyms.
+		Our engineers have incorporated *Natural Language Processing* (NLP) for entity extraction and this makes the bot intelligent enough to handle sentences that carry split entity synonyms.
 
-		For example : 
-		If you have added an entity synonym “mobile cover” and trained it accordingly, but the user uses it in the query as 2 different words like ::
+		For instance, you have added the entity synonym “mobile cover” and trained your bot accordingly, but the user frames the query by splitting the words apart as follows:
 
-										need cover for my mobile
+			.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/query-3.png   
 
-		The bot will be able to extract the correct entity and understand what the user wants to ask.
+		With Alter NLU, your bot will be able to extract the correct entity and accurately understand what information the user needs.
 
 =======
 Reports
@@ -84,6 +86,9 @@ The console gives you insight on the below with the help of tabular and statisti
 	-	**Intent Distribution:**
 		It represents that number of intents created as shown in fig 1.3. It also represents the numerical proportions for the number of sentences present in each of the intents(count) and their respective percentages(count percent).
 
+			.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/intent-distribution.png   
+
+
 	-	**Figuring out the intents that require more training sentences:**
 		It reports the specific intents that have less number of training sentences than the threshold set i.e 3 per intent. Notifies the user with the name of the intents lacking enough training expressions as compared to the other intents in the bot.
 
@@ -97,4 +102,5 @@ The console gives you insight on the below with the help of tabular and statisti
 	-	**Captures repetition of training sentence**
 		Informs about the training sentence(s) which the user might have added in multiple intents by mistake. The console alerts this to the user with an error message at the top of the reports section.
 
+			.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/report-details.png   
 

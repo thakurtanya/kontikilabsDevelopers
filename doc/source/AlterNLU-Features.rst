@@ -16,11 +16,9 @@ We also give the search entity functionality in the entity selection dropdown wh
 We give filter functionalities for entity name, reference value and entity specific synonyms to help user modify the data quickly.
 
 	.. note::
-		Whenever an entity is tagged in the sentence, it is automatically mapped in the synonyms of the corresponding entity.
+		Whenever an entity is tagged in the sentence, it is automatically mapped in the synonyms of the corresponding reference value.
 
-		Also,
-
-		If you change the ‘Reference Value’ in the entity section the same will be reflected dynamically in the intent section, and vice versa.
+		Also, if you change the ‘Reference Value’ in the entity section the same will be reflected dynamically in the intent section, and vice versa.
 
 ==========================================================
 Get real time Report of training data if there’s any issue
