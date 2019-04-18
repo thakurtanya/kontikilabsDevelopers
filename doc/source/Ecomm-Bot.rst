@@ -6,7 +6,7 @@ The console is developed to handle multiple chatbot datasets within a single use
 
 Start by creating your account from our `Alter NLU console <https://console.kontikilabs.com>`_
 
-	.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/home-page.png   
+	.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/main-page.png   
 
 Upon clicking the ‘Sign Up’ button, an email is sent to the ID you provide above. You can log in on the console once you verify your identity via the email.
 
