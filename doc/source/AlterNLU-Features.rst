@@ -48,19 +48,30 @@ Once you have rectified all the errors, you will be able to download the dataset
 	.. note::
 		If you are using RASA NLU, you can quickly create the dataset using Alter NLU Console and Download it in RASA NLU format. We have updated our console for hassle free data creation which is less prone to mistakes.
 
+	.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/download-format.png   
+
 =================
 Data Manipulation
 =================
 
 To maintain the dataset standards we apply dynamic algorithims to perform data manipulation in an efficient manner. Below is an example to illustrate how we are manipulating your training data for better accuracy.
 
-Let us suppose we have create an entity "brand" which has the below data: image below.
+	.. note::
+		Any modification made in the entity section is modified dynamically in the sentences in the intent section, and vice versa.
 
-					
-From the image we can make out that the Reference Value - lenovo has synonyms - inspiron etc, while the other entry is "dell" and its synonyms.
+Let us suppose we have create an entity "brand" which has the below data:
 
-Now, in the intent section, I train for the phrase - "I want an Inspiron". And for other similar phrases, I tag the word "Inspiron" with "Lenovo" reference value. Later, while examining my created entities, I realize that I have tagged "Inspiron" which is a variant of dell to Lenovo. Therefore, I delete the synonym value from lenovo and add the "Inspiron" synonym to dell reference value. 
-Our code dynamically judges the modification made and update the value in the intent portion. -check-
+	.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/brand-synonyms.png   
+
+From the image we can make out that the Reference Value - lenovo has synonyms - inspiron, thinkpad etc, while the other entry is "dell" which holds "vostro", "chromebook" etc as synonyms.
+
+Now, in the intent section, I train for the phrase - "I want an Inspiron". And for other similar phrases, I tag the word "Inspiron" with "lenovo" reference value. 
+
+	.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/example-1.png   
+
+
+Later, while examining my created entities, I realize that I have tagged "Inspiron" which is a variant of dell to lenovo. Therefore, I delete the synonym value from lenovo and add the "Inspiron" synonym to dell reference value. 
+Now, our code dynamically judges the modification made and update the "Reference Value" to "dell" in all the sentences present in the intent section.
 
 
 

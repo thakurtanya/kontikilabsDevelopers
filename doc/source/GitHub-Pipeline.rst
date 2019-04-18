@@ -45,6 +45,8 @@ Elaboration of the above chatbot response
 
 Below is an example along with a detailed explanation of the benefits of using this new pipeline.
 
+	.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/example-2.png   
+
 -	According to the context of the user query, the model successfully recognises the search product intent along with the confidence score.
 -	This model handles out-of-vocabulary words to some extent. 
 	The term ‘out-of-vocabulary words’ refers to those words which are not present in the training data of the chatbot.
@@ -53,3 +55,5 @@ Below is an example along with a detailed explanation of the benefits of using t
 -	If you’re familiar with other bot frameworks, then you might not have come across a key like “parsed_value”. The main goal	  to add this key in the response is to assist developers to directly use the “parsed_value” if needed. 
 	In the example above, the developer might need the exact value of entities such as “price” that is in the user query for further usage. In this case it’s “799k”.
 -	Also, if you’re an existing user of Alter NLU it needs to be pointed out that the “category” key in the response has been renamed to “name”.
+
+
