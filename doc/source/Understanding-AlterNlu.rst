@@ -1,27 +1,27 @@
-#######################
-Understanding Alter NLU
-#######################
+###############################
+Understanding Alter NLU Console
+###############################
 
 =======
 Intents
 =======
 
-Intents are what you expect users to say and what are their intentions. It describes the context of the expression that the user says or in simple terms what the user probably meant to say.
+Intents are what you expect users to say and what are their intentions. It depicts the gist of the expression that the user says or in simple terms what the user probably meant to say.
 
 For Example :
 
 		If the user types : 
-		*I want to read politcal news*
+		*I want to buy apple mobile worth 60k*
 		
-		His intent here is to retrive a bunch of politcal articles.
+		Here the user intent to buy the specified product with the mentioned specifications. We can infer the intent of the user query as "search-product", which is a user-defined term.
 
-There are 2 type of intents:
+There can be 2 varieties of intents:
 
-	-	First, which do not map to any keyword, but are simple and direct phrases like an intent named “greet” which will hold training phrases as :: 
+	-	First, which do not contain any entities (explained below), but are simple and direct queries. For example “greet”, "exit" and other light conversational intents :: 
 									
 			“Hey there” or  “Hi”.
 									
-	-	Second, which can have multiple or single keywords (entities) in the training phrase which we want to extract from the user query as demonstrated in the image below.
+	-	Second, which can contain multiple or single entities in the training query which we want to extract from the user query as demonstrated in the image below.
 
 		.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/intent-mapping.png   
 
@@ -29,7 +29,7 @@ There are 2 type of intents:
 Entities
 ========
 
-Entities describe the piece of information you would want to extract from the expressions/messages of the user.
+Entities describe the piece of information you would want to extract from the expressions/messages of the user. Entities can consist of signle or multiple words. For example "mobile" and "mobile cover" are 2 different entities.
 
 Like in the image above, the "price", "product-type" and "brand" are the 3 entities in our console that will be mapped to their respective “Reference Value“ and “Synonyms“ values.
 
