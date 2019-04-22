@@ -51,6 +51,43 @@ A set of words or phrases having similar meaning, mapped against each reference 
 
 It is the part of the sentence we highlight to tag against a particular entity. Each Selected Value in the Alter NLU console has a different color code based on the entity tagged.
 
+=======
+Reports
+=======
+
+Chatbot training is an ongoing process that should get better at every successive stage. With each improvement, the trainer/developer should have a clearer understanding of the changes made. 
+
+	*The section provides NLP based real time ‘Reports’ where we list out the health of the training dataset created by the user, alert if there are issues and recommend how to make it better.*
+
+The console gives you insight on the below with the help of tabular and statistical graphical display:
+----- add corrrect screen shot here ------
+
+	-	**Intent Distribution:**
+		It represents that number of intents created and the numerical proportions for the number of relevant sentences present in each of the intents and their respective percentages.
+
+		.. note::
+		   The relevant sentences are the sentence which contributes towards building better NLU model.
+
+			.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/intent-distribution.png   
+
+
+	-	**Figuring out the intents that require more training sentences:**
+		It reports the specific intents that have less number of training sentences than the threshold set i.e 3 relevant sentence per intent. Also, it notifies the user with the name of the intents lacking enough training queries in comparison to the other intents in the bot.
+		-- addd screen shot ----
+
+	-	**Listing out the limitations in the entity section:**
+		Reports about the name of the entities which have been defined, but the user might not have formed any training queries with it in the intent section. The other reason could be that the user might have mistakenly deleted the entity from the intent section but forgot to delete the same from the entity section.
+
+	-	**Examines the training dataset to extract the untagged entities:**
+		Lists out keywords which have been tagged as an entity in intent but, the same keyword also occurs untagged in the training sentence of another intent.
+		It also notifies the user that they might have skipped tagging the keyword as an entity in the other intent mentioned.
+
+	-	**Captures repetition of training sentence:**
+		Informs about the training sentence(s) which the user might have added in multiple intents by mistake. The console alerts this to the user with an error message at the top of the reports section.
+
+			.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/report-details.png   
+
+
 **How Intents and Entities work to produce maximum output with relatively less training data?**
 
 	-	*The intent | sentence ratio. Manage inventory of synonyms with entities*
@@ -88,35 +125,4 @@ It is the part of the sentence we highlight to tag against a particular entity. 
 			.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/query-3.png   
 
 		With Alter NLU, your bot will be able to extract the correct entity and accurately understand what information the user needs.
-
-=======
-Reports
-=======
-
-Chatbot training is an ongoing process that should get better at every successive stage. With each improvement, the trainer/developer should have a clearer understanding of the changes made. 
-
-	*The section provides AI based real time ‘Reports’ where we list out the health of the training dataset created by the user, alert if there are issues and recommend how to make it better.*
-
-The console gives you insight on the below with the help of tabular and statistical graphical display:
-
-	-	**Intent Distribution:**
-		It represents that number of intents created and the numerical proportions for the number of sentences present in each of the intents(count) and their respective percentages(count percent).
-
-			.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/intent-distribution.png   
-
-
-	-	**Figuring out the intents that require more training sentences:**
-		It reports the specific intents that have less number of training sentences than the threshold set i.e 3 per intent. Notifies the user with the name of the intents lacking enough training expressions as compared to the other intents in the bot.
-
-	-	**Listing out the limitations in the entity section:**
-		Reports about the name of the entities which have been defined, but the user might not have formed any training sentence with it in the intent section. The other reason could be that the user might have mistakenly deleted the entity from the intent section but forgot to delete the same from the entity section.
-
-	-	**Examines the training dataset to extract the untagged entities:**
-		Lists out keywords which have been tagged as an entity in intent but, the same keyword also occurs untagged in the training sentence of another intent.
-		Notifies the user that they might have skipped tagging the keyword as an entity in the other intent mentioned.
-
-	-	**Captures repetition of training sentence**
-		Informs about the training sentence(s) which the user might have added in multiple intents by mistake. The console alerts this to the user with an error message at the top of the reports section.
-
-			.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/report-details.png   
 
