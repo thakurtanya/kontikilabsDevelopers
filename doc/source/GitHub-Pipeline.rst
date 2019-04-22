@@ -15,13 +15,13 @@ Rest API supported for both the below training and parsing queries.
 
 -	REST API training ::
 
-		URL	   :http://<ip_address>:5001/train
-		method : POST
-		Headers: {
+		URL     : http://<ip_address>:5001/train
+		Method  : POST
+		Headers : {
 		    Accept : application/json,
 		    Content-Type : application/json
 		}
-		Body   : Content of Training Data JSON file downloaded from Alter NLU Console
+		Body    : Content of Training Data JSON file downloaded from Alter NLU Console
 	
 	or ::
 
@@ -29,7 +29,7 @@ Rest API supported for both the below training and parsing queries.
 
 -	Rest API parse query ::
 	
-		http   ://<ip_address>:5001/parse
+		URL    : http://<ip_address>:5001/parse
 		Method : POST
 		Headers: {
 		    Accept : application/json,
