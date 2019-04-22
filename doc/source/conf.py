@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Alter Nlu'
+project = 'Alter NLU'
 copyright = '2019, Tanya Thakur'
 author = 'Tanya Thakur'
 

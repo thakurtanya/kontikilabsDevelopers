@@ -84,7 +84,7 @@ Chatbot training is an ongoing process that should get better at every successiv
 The console gives you insight on the below with the help of tabular and statistical graphical display:
 
 	-	**Intent Distribution:**
-		It represents that number of intents created as shown in fig 1.3. It also represents the numerical proportions for the number of sentences present in each of the intents(count) and their respective percentages(count percent).
+		It represents that number of intents created and the numerical proportions for the number of sentences present in each of the intents(count) and their respective percentages(count percent).
 
 			.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/intent-distribution.png   
 
