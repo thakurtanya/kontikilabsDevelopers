@@ -70,7 +70,7 @@ Let us suppose - an entity "brand" which has the below data:
 
 	.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/brand-synonyms.png   
 
-From the image above we can make out that "Reference Value", "lenovo" has synonyms - ``["inspiron", "thinkpad"]`` etc, while the other entry is "dell" which holds ``["vostro", "chromebook"]`` etc as synonyms.
+From the image above we can make out that Reference Value i.e "lenovo" has synonyms - ``["inspiron", "thinkpad"]`` etc, while the other entry is "dell" which holds ``["vostro", "chromebook"]`` etc as synonyms.
 
 Now, in the intent section, I train for the phrase - "I want an Inspiron". And for other similar phrases, I tag the word "Inspiron" with "lenovo" reference value. 
 
