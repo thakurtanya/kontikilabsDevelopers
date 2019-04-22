@@ -60,9 +60,9 @@ Data Manipulation
 To maintain the dataset standards we apply dynamic algorithims to perform data manipulation in an efficient manner. Below is an example to illustrate how we are manipulating your training data for better accuracy.
 
 	.. note::
-		Any modification made in the entity section is modified dynamically in the sentences in the intent section, and vice versa.
+		Any modification made in the entity section is altered dynamically in the sentences of the intent section, and vice versa.
 
-Let us suppose we have create an entity "brand" which has the below data:
+Let us suppose we have to create an entity "brand" which has the below data:
 
 	.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/brand-synonyms.png   
 
