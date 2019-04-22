@@ -1,7 +1,12 @@
 
 ##############################
-Alter NLU GitHub Repo Pipeline
+Alter NLU Engine Repo Pipeline
 ##############################
+
+============
+Installation
+============
+Go to this `GitHub <https://github.com/Kontikilabs/alter-nlu/tree/v1.0.0-beta>`_ Repo and follow the steps in the "Setting Up" section of the README.MD file.
 
 ========
 Rest API 
@@ -12,17 +17,21 @@ Rest API supported for both the below training and parsing queries.
 
 		http://<ip_address>:5001/train
 		Method : POST
-		Accept / Content_type : application/json
-		Data : training_data file from Kontiki Platform.
+		Accept : application/json
+		Content_type : application/json
+		Data : Content of Training Data JSON file downloaded from Alter NLU Console
 
-		curl -H "Content-Type: application/json" --data @<file path> http://localhost:5001/train
+		or ::
+
+		curl -H "Content-Type: application/json" --data @<training_data_json_file_path> http://localhost:5001/train
 
 -	Rest API parse query ::
 	
 		http://<ip_address>:5001/parse
 		Method : POST
-		Accept / Content_type : application/json
-		Data : {"text": "<your_query>"}
+		Accept : application/json
+		Content_type : application/json
+		Data : {"text": "<user_query>"}
 
 ======================================
 v1.0.0-beta : The Engineering Involved
