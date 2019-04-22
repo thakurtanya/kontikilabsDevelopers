@@ -15,23 +15,27 @@ Rest API supported for both the below training and parsing queries.
 
 -	REST API training ::
 
-		http://<ip_address>:5001/train
+		URL : http://<ip_address>:5001/train
 		Method : POST
-		Accept : application/json
-		Content_type : application/json
-		Data : Content of Training Data JSON file downloaded from Alter NLU Console
+		Headers: {
+		    Accept : application/json,
+		    Content-Type : application/json
+		}
+		Body : Content of Training Data JSON file downloaded from Alter NLU Console
 
 	or ::
 
-		curl -H "Content-Type: application/json" --data @<training_data_json_file_path> http://localhost:5001/train
+		curl -H "Content-Type: application/json" --data @<training_data_json_file_path> http://<ip_address>:5001/train
 
 -	Rest API parse query ::
 	
 		http://<ip_address>:5001/parse
 		Method : POST
-		Accept : application/json
-		Content_type : application/json
-		Data : {"text": "<user_query>"}
+		Headers: {
+		    Accept : application/json,
+		    Content-Type : application/json
+		}
+		Body : {"text": "<user_query>"}
 
 ======================================
 v1.0.0-beta : The Engineering Involved
