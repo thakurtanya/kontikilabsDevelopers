@@ -38,14 +38,17 @@ Like in the image above, the "price", "product-type" and "brand" are the 3 entit
 		.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/syn-1.png   
 
 **Reference Value**
+
 It is the convenient representation of the whole set of synonyms (explained below). It can be in the form of an ``unique_id``, ``abbreviations``, ``initials``, ``shortforms``, etc. according to the developers convinence.  
-For example, our backend code for the brand "Dolce & Gabbana" is "D_G".
-Accordingly, we opt to add the reference value as "D_G" which will contain all the synonyms user can use in his query to refer to this brand. Whenever the user will include a synonym for this brand in his query the output retrieved will be the reference value.
+
+For example, in the last synonym set "Dolce & Gabbana" in the image above is conveniently refered as "D_G".
 
 **Synonyms**
-A word or phrase that means exactly or nearly the same as the Reference Value.
+
+A set of words or phrases having similar meaning, mapped against each reference value
 
 **Selected Value**
+
 It is the part of the sentence we highlight to tag against a particular entity. Each Selected Value in the Alter NLU console has a different color code based on the entity tagged.
 
 **How Intents and Entities work to produce maximum output with relatively less training data?**
