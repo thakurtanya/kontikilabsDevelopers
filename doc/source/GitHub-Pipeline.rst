@@ -21,7 +21,7 @@ Rest API supported for both the below training and parsing queries.
 		Content_type : application/json
 		Data : Content of Training Data JSON file downloaded from Alter NLU Console
 
-		or ::
+or ::
 
 		curl -H "Content-Type: application/json" --data @<training_data_json_file_path> http://localhost:5001/train
 
