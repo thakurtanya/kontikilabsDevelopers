@@ -9,10 +9,11 @@ Interactive UI to build and manage training data
 	.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/alter-nlu-ui.gif   
 	   :align: center
 
-**Intent : Create, Modify, Delete intent and intent specific example sentences.**
+**Intent : Create, Modify, Delete intent and intent queries.**
 
-We give filter functionalities for intent name and intent specific training sentences to help user modify the data quickly.
-We also give the search entity functionality in the entity selection dropdown when selecting from the  training sentences.
+We give filter functionalities for intent name and intent specific training sentences to help user modify the data quickly. We also have the search functionality from where the user can filter out the list.
+
+For user convenience, we allow drop down search for both "Selected Value" and "Reference Value".
 
 **Entity : Create, Modify, Delete entity and entity specific reference value and synonyms.**
 
@@ -27,7 +28,7 @@ We give filter functionalities for entity name, reference value and entity speci
 Get real time Report of training data if there’s any issue
 ==========================================================
 
-A dedicated reports page which gives you the insights of all the errors and warnings that might affect the training of the bot or make it perform less efficiently.
+A dedicated reports page which gives you the insights of all the warnings and errors that might affect the training of the bot or make it perform less efficiently.
 
 -	Intent Distribution in the form of a pie chart.
 -	Figuring out the intents that require more training sentences.
@@ -41,7 +42,7 @@ Download the training dataset in 2 formats - Alter NLU & RASA NLU
 
 The download button will get activated only when user meets the below threshold requirements -
 
-1. Each intent must contain at least 3 unique training sentences.
+1. Each intent must contain at least 3 relevant training sentences.
 2. Each entity reference value must have at least one of the synonyms tagged in any one of the intents' training sentences.
 3. There should never be multiple intents containing same training sentence(s).
 4. The number of total intents must be at least 2 to allow downloading of training data.
@@ -62,18 +63,18 @@ To maintain the dataset standards we apply dynamic algorithims to perform data m
 	.. note::
 		Any modification made in the entity section is altered dynamically in the sentences of the intent section, and vice versa.
 
-Let us suppose we have to create an entity "brand" which has the below data:
+Let us suppose - an entity "brand" which has the below data:
 
 	.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/brand-synonyms.png   
 
-From the image we can make out that the Reference Value - lenovo has synonyms - inspiron, thinkpad etc, while the other entry is "dell" which holds "vostro", "chromebook" etc as synonyms.
+From the image above we can make out that "Reference Value", "lenovo" has synonyms - ``["inspiron", "thinkpad"]`` etc, while the other entry is "dell" which holds ``["vostro", "chromebook"]`` etc as synonyms.
 
 Now, in the intent section, I train for the phrase - "I want an Inspiron". And for other similar phrases, I tag the word "Inspiron" with "lenovo" reference value. 
 
 	.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/example-1.png   
 
 
-Later, while examining my created entities, I realize that I have tagged "Inspiron" which is a variant of dell to lenovo. Therefore, I delete the synonym value from lenovo and add the "Inspiron" synonym to dell reference value. 
+Later, while examining my created entities, I realize that I have tagged "Inspiron", which is a variant of "dell" to "lenovo". Therefore, I delete the synonym value from "lenovo" and add the "Inspiron" synonym to "dell" reference value. 
 Now, our code dynamically judges the modification made and update the "Reference Value" to "dell" in all the sentences present in the intent section.
 
 
