@@ -95,6 +95,6 @@ The console gives you insight on the below with the help of tabular and statisti
 		   So, all you need to do is add 1 training query in the intent section containing any one of the synonyms per reference value and your bot is good to go.
 
 
-For instance, I only need to train for 1 user query containing the sysnonym for "D_G" like :
+For instance, I only need to train for 1 user query containing synonym for "D_G" reference value like :
 *I want a Dolce & Gabbana bag*
 and rest will be handled automatically.	
