@@ -68,7 +68,8 @@ The console gives you insight on the below with the help of tabular and statisti
 		.. note::
 		   The relevant sentences are the sentence which contributes towards building better NLU model.
 
-			.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/intent-distribution.png   
+		
+		.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/intent-distribution.png   
 
 
 	-	**Figuring out the intents that require more training sentences:**
@@ -87,42 +88,10 @@ The console gives you insight on the below with the help of tabular and statisti
 
 			.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/report-details.png   
 
-
-**How Intents and Entities work to produce maximum output with relatively less training data?**
-
-	-	*The intent | sentence ratio. Manage inventory of synonyms with entities*
-		
-		The primary obstacle in building an intelligent chatbot is interpreting the varied patterns and expressions that a user may adopt when posing a query and training it for all possible approaches.
-
-		Unlike a few other NLP applications for training bots, we try to provide optimum results even when there are fewer training samples. However, as a rule of thumb, the more you train your bot, the better the outcome
-
 		.. note::
-		   For good results, the console requires a minimum of 3 training samples per intent. Also, Alter NLU needs only a single synonym training sample for each entity reference value.
-
-		To ensure that the training stats are appropriate, we show alerts and warnings in the reports section of the console.
-
-		For example, if a user wants to buy a laptop with certain specifications, he or she may pose a query like:
-
-			.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/query-1.png   
-
-		The same query may be framed differently like:
-
-			.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/query-2.png   
+		   For good results, the console requires a minimum of 3 relevant training queries per intent. Also, Alter NLU console needs only a single synonym tagged for each entity reference value in training queries of the intent section.
+		   So, all you need to do is add one training query in the intent section containing any one of the synonyms per reference value and your bot is good to go.
 
 
-		Our console allows you to maintain an inventory of related words such as “laptop” and “PC” in the form of entities, and train it only for a single synonym. This is illustrated below:
-
-			.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/synonym-value.png   
-
-		So, all you need to do is add one expression in the intent containing any one of the synonyms and your bot is good to go.
-
-	-	*Using Natural Language Processing for entity extraction*
-
-		Our engineers have incorporated *Natural Language Processing* (NLP) for entity extraction and this makes the bot intelligent enough to handle sentences that carry split entity synonyms.
-
-		For instance, you have added the entity synonym “mobile cover” and trained your bot accordingly, but the user frames the query by splitting the words apart as follows:
-
-			.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/query-3.png   
-
-		With Alter NLU, your bot will be able to extract the correct entity and accurately understand what information the user needs.
+		add an example from the screen shot
 
