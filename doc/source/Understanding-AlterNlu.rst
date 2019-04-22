@@ -62,7 +62,7 @@ Like in the image above, the "price", "product-type" and "brand" are the 3 entit
 
 		So, all you need to do is add one expression in the intent containing any one of the synonyms and your bot is good to go.
 
-	|-	*Using Natural Language Processing for entity extraction*
+	-	*Using Natural Language Processing for entity extraction*
 
 		Our engineers have incorporated *Natural Language Processing* (NLP) for entity extraction and this makes the bot intelligent enough to handle sentences that carry split entity synonyms.
 
