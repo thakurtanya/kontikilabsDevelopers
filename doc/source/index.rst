@@ -1,8 +1,8 @@
 .. image:: https://docs.kontikilabs.com/img/Alter_NLU_02.png  
 
-###############################################
-Building Chatbot - AI Assistannt With Alter NLU
-###############################################
+##############################################
+Building Chatbot - AI Assistant With Alter NLU
+##############################################
 
 A good quality training dataset is the most critical aspect behind building a robust and intelligent chatbot. Everything depends upon how good is the training dataset for the conversational agents to understand and respond accordingly based on the user intent and context. 
 
@@ -15,7 +15,7 @@ We understand that each query first has to pass through a model to revert a vali
    Alter NLU is programmed to maximize output with relatively less training data
 
 This guide is segregated into 2 parts -
-   - Alter NLU Console
+   - Alter NLU Console, and
    - Alter NLU Engine
 Which helps you in developing a good quality training dataset and build your NLU model for your AI based conversational agents.
 

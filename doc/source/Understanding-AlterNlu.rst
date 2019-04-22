@@ -29,10 +29,24 @@ There can be 2 varieties of intents:
 Entities
 ========
 
-Entities describe the piece of information you would want to extract from the expressions/messages of the user. Entities can consist of signle or multiple words. For example "mobile" and "mobile cover" are 2 different entities.
+Entities describe the piece of information you would want to extract from the expressions/messages of the user. 
 
-Like in the image above, the "price", "product-type" and "brand" are the 3 entities in our console that will be mapped to their respective “Reference Value“ and “Synonyms“ values.
+Entities can consist of single or multiple words. For example "mobile" and "mobile cover" are 2 different entities.
 
+Like in the image above, the "price", "product-type" and "brand" are the 3 entities in our Alter NLU console that will be tagged to their respective “Reference Value“ and “Synonyms“ values.
+
+		.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/syn-1.png   
+
+**Reference Value**
+It is the convenient representation of the whole set of synonyms (explained below). It can be in the form of an ``unique_id``, ``abbreviations``, ``initials``, ``shortforms``, etc. according to the developers convinence.  
+For example, our backend code for the brand "Dolce & Gabbana" is "D_G".
+Accordingly, we opt to add the reference value as "D_G" which will contain all the synonyms user can use in his query to refer to this brand. Whenever the user will include a synonym for this brand in his query the output retrieved will be the reference value.
+
+**Synonyms**
+A word or phrase that means exactly or nearly the same as the Reference Value.
+
+**Selected Value**
+It is the part of the sentence we highlight to tag against a particular entity. Each Selected Value in the Alter NLU console has a different color code based on the entity tagged.
 
 **How Intents and Entities work to produce maximum output with relatively less training data?**
 
