@@ -15,6 +15,9 @@ We give filter functionalities for intent name and intent specific training sent
 
 For user convenience, we allow drop down search for both "Selected Value" and "Reference Value".
 
+	.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/search-1.png   
+
+
 **Entity : Create, Modify, Delete entity and entity specific reference value and synonyms.**
 
 We give filter functionalities for entity name, reference value and entity specific synonyms to help user modify the data quickly.
