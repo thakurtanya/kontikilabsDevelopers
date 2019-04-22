@@ -60,7 +60,6 @@ Chatbot training is an ongoing process that should get better at every successiv
 	*The section provides NLP based real time ‘Reports’ where we list out the health of the training dataset created by the user, alert if there are issues and recommend how to make it better.*
 
 The console gives you insight on the below with the help of tabular and statistical graphical display:
------ add corrrect screen shot here ------
 
 	-	**Intent Distribution:**
 		It represents that number of intents created and the numerical proportions for the number of relevant sentences present in each of the intents and their respective percentages.
@@ -74,24 +73,29 @@ The console gives you insight on the below with the help of tabular and statisti
 
 	-	**Figuring out the intents that require more training sentences:**
 		It reports the specific intents that have less number of training sentences than the threshold set i.e 3 relevant sentence per intent. Also, it notifies the user with the name of the intents lacking enough training queries in comparison to the other intents in the bot.
-		-- addd screen shot ----
-
-	-	**Listing out the limitations in the entity section:**
-		Reports about the name of the entities which have been defined, but the user might not have formed any training queries with it in the intent section. The other reason could be that the user might have mistakenly deleted the entity from the intent section but forgot to delete the same from the entity section.
+		
+			.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/report-1.png   
 
 	-	**Examines the training dataset to extract the untagged entities:**
 		Lists out keywords which have been tagged as an entity in intent but, the same keyword also occurs untagged in the training sentence of another intent.
 		It also notifies the user that they might have skipped tagging the keyword as an entity in the other intent mentioned.
 
+			.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/untagged-entities.png   
+
+	-	**Listing out the limitations in the entity section:**
+		Reports about the name of the entities which have been defined, but the user might not have formed any training queries with it in the intent section. The other reason could be that the user might have mistakenly deleted the entity from the intent section but forgot to delete the same from the entity section.
+
 	-	**Captures repetition of training sentence:**
 		Informs about the training sentence(s) which the user might have added in multiple intents by mistake. The console alerts this to the user with an error message at the top of the reports section.
 
-			.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/report-details.png   
+			.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/report-2.png   
 
 		.. note::
 		   For good results, the console requires a minimum of 3 relevant training queries per intent. Also, Alter NLU console needs only a single synonym tagged for each entity reference value in training queries of the intent section.
-		   So, all you need to do is add one training query in the intent section containing any one of the synonyms per reference value and your bot is good to go.
+		   So, all you need to do is add 1 training query in the intent section containing any one of the synonyms per reference value and your bot is good to go.
 
 
-		add an example from the screen shot
+For instance, I only need to train for 1 user query containing the sysnonym for "D_G" like - 
+				*I want a Dolce & Gabbana bag* 
+and rest will be handled automatically. 
 

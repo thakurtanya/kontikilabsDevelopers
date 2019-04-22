@@ -15,9 +15,9 @@ We understand that each query first has to pass through a model to revert a vali
    Alter NLU is programmed to maximize output with relatively less training data
 
 This guide is segregated into 2 parts -
-   - Alter NLU Console, and
+   - Alter NLU Console
    - Alter NLU Engine
-   
+
 Which helps you in developing a good quality training dataset and build your NLU model for your AI based conversational agents.
 
 Understanding Alter NLU Console
