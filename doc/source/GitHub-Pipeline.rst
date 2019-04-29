@@ -47,7 +47,7 @@ We have used **Convolutional Neural Networks (CNN)** based model to capture the 
 
 **Entity Model**
 
-In this version we have replaced the previous Flashtext and FuzzyWuzzy based entity extraction method with a **CRF based Entity Recognition model**.
+In this version, we have replaced the previous Flashtext and FuzzyWuzzy based entity extraction method with a **CRF based Entity Recognition model**.
 
 ================================
 Alter NLU Engine Response Format

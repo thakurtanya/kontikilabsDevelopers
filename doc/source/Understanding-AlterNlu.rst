@@ -86,7 +86,7 @@ Here are the list of items that get covered under Reports:
 		It reports about the name of the entities that have been defined but have not been used by the user to form training queries in the intent section. It also reports when the user might have mistakenly deleted the entity from the intent section but forgotten to delete the same from the entity section
 
 	-	**Capturing repetition of training sentence:**
-		It informs about the training sentence(s) which the user might have added in multiple intents by mistake. The console alerts this to the user with an error message at the top of the reports section.
+		It informs about the training sentence(s) that the user might have added in multiple intents by mistake. The console alerts this to the user with an error message at the top of the reports section.
 
 			.. image:: https://s3-ap-southeast-1.amazonaws.com/kontikilabs.com/alter-nlu-readthedocs/report-2.png   
 

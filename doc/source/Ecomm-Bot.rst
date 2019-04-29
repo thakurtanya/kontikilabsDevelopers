@@ -39,7 +39,7 @@ This intent will hold all the user queries asking about the current sales, vouch
 
 	.. image:: https://s3-ap-southeast-1.amazonaws.com/kontikilabs.com/alter-nlu-readthedocs/ongoing-offers.png   
 
-Remember to train the dataset with expressions that contain words like — sales, vouchers, etc, as these words will keep the “ongoing_offers” intent unique from other non-keyword intents.
+Remember to train the dataset with expressions that contain words like sales, vouchers, etc. This is because words will keep the “ongoing_offers” intent unique from other non-keyword intents.
 
 =================
 Building Entities

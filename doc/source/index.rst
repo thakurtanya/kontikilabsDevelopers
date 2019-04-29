@@ -9,7 +9,7 @@ A good-quality training dataset is the most critical aspect for building a robus
 We understand that to revert a valid response to the user, each query has to first pass through a model.
 **And, to let our customers build, manage and analyse the training dataset, we developed** `Alter NLU <https://console.kontikilabs.com>`_.
 
-`Alter NLU <https://console.kontikilabs.com>`_ is an open source tool to train AI based conversational agents powered by deep learning. It is conceptualized by developers, for developers, enabling them to build high quality dataset for chatbots of any domain. 
+`Alter NLU <https://console.kontikilabs.com>`_ is an open source tool to train AI-based conversational agents, powered by deep learning. It is conceptualized by developers, for developers, enabling them to build high-quality dataset for chatbots of any domain. 
 
 .. note::
    Alter NLU is programmed to maximize output with relatively less training data
@@ -23,7 +23,7 @@ This helps in developing a good-quality training dataset and building a NLU mode
 Understanding Alter NLU Console
 ===============================
 
-The main focus of the Alter NLU Console is to get rid of all the struggles involved in building stable and good-quality training dataset. To achieve the same, it is segregated into 3 parts:
+The main focus of the Alter NLU Console is to get rid of the struggles involved in building a stable and good-quality training dataset. To achieve the same, it is segregated into 3 parts:
 
 .. toctree::
    :maxdepth: 3
