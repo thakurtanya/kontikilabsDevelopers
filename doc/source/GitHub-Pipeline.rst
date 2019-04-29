@@ -37,9 +37,9 @@ Rest API supported for both the below training and parsing queries.
 		}
 		Body   : {"text": "<user_query>"}
 
-======================================
-v1.0.0-beta : The Engineering Involved
-======================================
+=====================================
+v1.0.0-beta: The Engineering Involved
+=====================================
 
 **Intent Model**
 

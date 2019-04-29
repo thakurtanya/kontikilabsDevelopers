@@ -26,7 +26,7 @@ Get started by creating new dataset, which requires a ``bot name`` and the ``ind
 Once you click on the "Add" button, the dataset gets created and you will be redirected to "Intent Page".
 
 =======================================================
-Building no keyword Intents (Intents with no entities):
+Building no keyword Intents (Intents with no Entities):
 =======================================================
 
 The intents like “greet” and “exit” are the generic intents every bot should handle. Besides these intents, build other intents you plan to include in your chatbot. Like, I have included “ongoing_offers”. Follow the steps below to create the “ongoing_offers” intent :
@@ -95,9 +95,9 @@ Like in the images below, you can see in the intent section:
 .. note::
 	If you change the ‘Reference Value’ in the entity section the same will be reflected dynamically in the intent section, and vice versa.
 
-===========================================================
-Analysing the loopholes in the dataset : The Report Section
-===========================================================
+==========================================================
+Analysing the loopholes in the dataset: The Report Section
+==========================================================
 
 Once you are done building the dataset, move to the Report Section which will analyse your dataset for all intents and entities in real-time and notify the errors and warnings that need to be addressed for the accuracy of the chatbot’s response.
 

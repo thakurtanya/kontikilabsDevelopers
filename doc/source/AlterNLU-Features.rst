@@ -3,7 +3,7 @@ Alter NLU Console Features and Data Manipulation
 ################################################
 
 ================================================
-Interactive UI to build and manage training data
+Interactive UI to Build and Manage Training Data
 ================================================
 
 	.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/alter-nlu-ui.gif   
@@ -28,7 +28,7 @@ We give filter functionalities for entity name, reference value and entity speci
 		Also, if you change the ‘Reference Value’ in the entity section the same will be reflected dynamically in the intent section, and vice versa.
 
 ==========================================================
-Get real time Report of training data if there’s any issue
+Get Real-Time Report of Training Data if There’s Any Issue
 ==========================================================
 
 A dedicated reports page which gives you the insights of all the warnings and errors that might affect the training of the bot or make it perform less efficiently.
@@ -40,7 +40,7 @@ A dedicated reports page which gives you the insights of all the warnings and er
 -	Captures repetition of training sentence.
 
 =================================================================
-Download the training dataset in 2 formats - Alter NLU & RASA NLU
+Download the Training Dataset in 2 Formats - Alter NLU & RASA NLU
 =================================================================
 
 The download button will get activated only when user meets the below threshold requirements -

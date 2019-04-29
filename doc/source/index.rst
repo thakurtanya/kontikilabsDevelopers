@@ -1,15 +1,15 @@
 .. image:: https://docs.kontikilabs.com/img/Alter_NLU_02.png  
 
 ##############################################
-Building Chatbot/AI Assistant With Alter NLU
+Building Chatbot/AI Assistant with Alter NLU
 ##############################################
 
-A good quality training dataset is the most critical aspect behind building a robust and intelligent chatbot. Everything depends upon how good is the training dataset for the conversational agents to understand and respond accordingly based on the user intent and context. 
+A good quality training dataset is the most critical aspect behind building a robust and intelligent chatbot. Everything depends upon how good is the training dataset for conversational agents to understand and respond accordingly based on the user intent and context. 
 
-We understand that each query first has to pass through a model to revert a valid response to the user.
-**To let our customers build, manage and analyse the training dataset, we developed** `Alter NLU <https://console.kontikilabs.com>`_.
+We understand that to revert a valid response to the user, each query has to first pass through a model.
+**And, to let our customers build, manage and analyse the training dataset, we developed** `Alter NLU <https://console.kontikilabs.com>`_.
 
-`Alter NLU <https://console.kontikilabs.com>`_ is an open source tool to train AI based conversational agents powered by deep learning. It is conceptualized by developers, for developers, enabling them to build high quality dataset for chatbots belongining to any domain. 
+`Alter NLU <https://console.kontikilabs.com>`_ is an open source tool to train AI based conversational agents powered by deep learning. It is conceptualized by developers, for developers, enabling them to build high quality dataset for chatbots belonging to any domain. 
 
 .. note::
    Alter NLU is programmed to maximize output with relatively less training data
@@ -18,12 +18,12 @@ This guide is segregated into 2 parts -
    - Alter NLU Console
    - Alter NLU Engine
 
-Which helps you in developing a good quality training dataset and build your NLU model for your AI based conversational agents.
+This helps you in developing a good quality training dataset and build your NLU model for your AI based conversational agents.
 
 Understanding Alter NLU Console
 ===============================
 
-The main focus of the Alter NLU Console is to get rid of all the struggles involved in building a stable and good quality training data. To achieve the same, it is segregated into 3 parts:
+The main focus of the Alter NLU Console is to get rid of all the struggles involved in building stable and good quality training data. To achieve the same, it is segregated into 3 parts:
 
 .. toctree::
    :maxdepth: 3
@@ -33,7 +33,7 @@ The main focus of the Alter NLU Console is to get rid of all the struggles invol
 Alter NLU Console Features and Data Manipulation  
 ================================================
 
-From interactive user-interface to getting real-time report of training dataset. Alter NLU provides all the necesaary features required to create a robust dataset. Click on the link below to have a brief overview of what all we include in this open source tool to train AI based conversational agents.
+From interactive user-interface to getting real-time report of training dataset. Alter NLU provides all the necessary features that are required to create a robust dataset. Click on the link below to have a brief overview of what all we include in this open source tool to train AI based conversational agents.
 
 .. toctree::
    :maxdepth: 2
