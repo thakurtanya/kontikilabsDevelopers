@@ -55,7 +55,7 @@ Alter NLU Engine Response Format
 
 Below is an example along with a detailed explanation of the response.
 
-	.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/example-two.png   
+	.. image:: https://s3-ap-southeast-1.amazonaws.com/kontikilabs.com/alter-nlu-readthedocs/example-two.png   
 
 -	According to the context of the user query, the model successfully recognises the search product intent along with the confidence score.
 

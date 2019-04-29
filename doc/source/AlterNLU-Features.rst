@@ -6,7 +6,7 @@ Alter NLU Console Features and Data Manipulation
 Interactive UI to Build and Manage Training Data
 ================================================
 
-	.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/alter-nlu-ui.gif   
+	.. image:: https://s3-ap-southeast-1.amazonaws.com/kontikilabs.com/alter-nlu-readthedocs/alter-nlu-ui.gif   
 	   :align: center
 
 **Intent : Create, Modify, Delete intent and intent queries.**
@@ -15,7 +15,7 @@ We give filter functionalities for intent name and intent specific training sent
 
 For user convenience, we allow drop down search for both "Selected Value" and "Reference Value".
 
-	.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/search-1.png   
+	.. image:: https://s3-ap-southeast-1.amazonaws.com/kontikilabs.com/alter-nlu-readthedocs/search-1.png   
 
 
 **Entity : Create, Modify, Delete entity and entity specific reference value and synonyms.**
@@ -55,7 +55,7 @@ Once you have rectified all the errors, you will be able to download the dataset
 	.. note::
 		If you are using RASA NLU, you can quickly create the dataset using Alter NLU Console and Download it in RASA NLU format. We have updated our console for hassle free data creation which is less prone to mistakes.
 
-	.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/download-format.png   
+	.. image:: https://s3-ap-southeast-1.amazonaws.com/kontikilabs.com/alter-nlu-readthedocs/download-format.png   
 
 =================
 Data Manipulation
@@ -68,16 +68,16 @@ To maintain the dataset standards we apply dynamic algorithims to perform data m
 
 Let us suppose - an entity "brand" which has the below data:
 
-	.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/brand-synonyms.png   
+	.. image:: https://s3-ap-southeast-1.amazonaws.com/kontikilabs.com/alter-nlu-readthedocs/brand-synonyms.png   
 
 From the image above we can make out that Reference Value i.e "lenovo" has synonyms - ``["inspiron", "thinkpad"]`` etc, while the other entry is "dell" which holds ``["vostro", "chromebook"]`` etc as synonyms.
 
 Now, in the intent section, I train for the phrase - "I want an Inspiron". And for other similar phrases, I tag the word "Inspiron" with "lenovo" reference value. 
 
-	.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/example-1.png   
+	.. image:: https://s3-ap-southeast-1.amazonaws.com/kontikilabs.com/alter-nlu-readthedocs/example-1.png   
 
 
-Later, while examining my created entities, I realize that I have tagged "Inspiron", which is a variant of "dell" to "lenovo". Therefore, I delete the synonym value from "lenovo" and add the "Inspiron" synonym to "dell" reference value. 
+Later, while examining my created entities, I realize that I have added "Inspiron", which is a variant of "dell" to "lenovo". Therefore, from the entity section I delete the synonym "Inspiron" from "lenovo" and add it to "dell" reference value. 
 Now, our code dynamically judges the modification made and update the "Reference Value" to "dell" in all the sentences present in the intent section.
 
 

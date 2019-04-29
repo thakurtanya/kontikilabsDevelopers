@@ -23,7 +23,7 @@ There can be 2 varieties of intents:
 									
 	-	Second, which can contain multiple or single entities in the training query which we want to extract from the user query as demonstrated in the image below.
 
-		.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/intent-mapping.png   
+		.. image:: https://s3-ap-southeast-1.amazonaws.com/kontikilabs.com/alter-nlu-readthedocs/intent-mapping.png   
 
 ========
 Entities
@@ -35,7 +35,7 @@ Entities can consist of single or multiple words. For example "mobile" and "mobi
 
 Like in the image above, the "price", "product-type" and "brand" are the 3 entities in our Alter NLU console that will be tagged to their respective “Reference Value“ and “Synonyms“ values.
 
-		.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/syn-1.png   
+		.. image:: https://s3-ap-southeast-1.amazonaws.com/kontikilabs.com/alter-nlu-readthedocs/syn-1.png   
 
 **Reference Value**
 
@@ -49,7 +49,7 @@ A set of words or phrases having similar meaning, mapped against each reference 
 
 **Selected Value**
 
-It is the part of the sentence we highlight to tag against a particular entity. Each Selected Value in the Alter NLU console has a different color code based on the entity tagged.
+It is the part of the sentence we highlight to tag against a particular entity. Each "Selected Value" in the Alter NLU console has a different color code based on the entity tagged.
 
 =======
 Reports
@@ -68,19 +68,19 @@ The console gives you insight on the below with the help of tabular and statisti
 		   The relevant sentences are the sentence which contributes towards building better NLU model.
 
 		
-		.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/intent-distribution-1.png   
+		.. image:: https://s3-ap-southeast-1.amazonaws.com/kontikilabs.com/alter-nlu-readthedocs/intent-distribution-1.png   
 
 
 	-	**Figuring out the intents that require more training sentences:**
 		It reports the specific intents that have less number of training sentences than the threshold set i.e 3 relevant sentence per intent. Also, it notifies the user with the name of the intents lacking enough training queries in comparison to the other intents in the bot.
 		
-			.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/report-1.png   
+			.. image:: https://s3-ap-southeast-1.amazonaws.com/kontikilabs.com/alter-nlu-readthedocs/report-1.png   
 
 	-	**Examines the training dataset to extract the untagged entities:**
 		Lists out keywords which have been tagged as an entity in intent but, the same keyword also occurs untagged in the training sentence of another intent.
 		It also notifies the user that they might have skipped tagging the keyword as an entity in the other intent mentioned.
 
-			.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/untagged-entities.png   
+			.. image:: https://s3-ap-southeast-1.amazonaws.com/kontikilabs.com/alter-nlu-readthedocs/untagged-entities.png   
 
 	-	**Listing out the limitations in the entity section:**
 		Reports about the name of the entities which have been defined, but the user might not have formed any training queries with it in the intent section. The other reason could be that the user might have mistakenly deleted the entity from the intent section but forgot to delete the same from the entity section.
@@ -88,7 +88,7 @@ The console gives you insight on the below with the help of tabular and statisti
 	-	**Captures repetition of training sentence:**
 		Informs about the training sentence(s) which the user might have added in multiple intents by mistake. The console alerts this to the user with an error message at the top of the reports section.
 
-			.. image:: https://raw.githubusercontent.com/thakurtanya/kontikilabsDevelopers/master/images/report-2.png   
+			.. image:: https://s3-ap-southeast-1.amazonaws.com/kontikilabs.com/alter-nlu-readthedocs/report-2.png   
 
 		.. note::
 		   For good results, the console requires a minimum of 3 relevant training queries per intent. Also, Alter NLU console needs only a single synonym tagged for each entity reference value in training queries of the intent section.
