@@ -21,7 +21,7 @@ There can be 2 varieties of intents:
 									
 			“Hey there” or  “Hi”.
 									
-	-	Second, which can contain multiple or single entities in the training query which we want to extract from the user query as demonstrated in the image below.
+	-	Second, which can contain multiple or single entities in the training query which we want to extract from the user query as demonstrated in the image below:
 
 		.. image:: https://s3-ap-southeast-1.amazonaws.com/kontikilabs.com/alter-nlu-readthedocs/intent-mapping.png   
 
@@ -39,13 +39,13 @@ Like in the image above, the "price", "product-type" and "brand" are the 3 entit
 
 **Reference Value**
 
-It is the convenient representation of the whole set of synonyms (explained below). It can be in the form of an ``unique_id``, ``abbreviations``, ``initials``, ``shortforms``, etc. according to the developers convinence.  
+It is the convenient representation of the whole set of synonyms (explained below). It can be in the form of a ``unique_id``, ``abbreviations``, ``initials``, ``shortforms``, etc. according to the developers’ convenience.  
 
-For example, in the last synonym set "Dolce & Gabbana" in the image above is conveniently refered as "D_G".
+For example, in the last synonym set "Dolce & Gabbana" in the image above is conveniently referred as "D_G".
 
 **Synonyms**
 
-A set of words or phrases having similar meaning, mapped against each reference value
+It is a set of words or phrases having similar meaning, mapped against each reference value.
 
 **Selected Value**
 
@@ -57,15 +57,15 @@ Reports
 
 Chatbot training is an ongoing process that should get better at every successive stage. With each improvement, the trainer/developer should have a clearer understanding of the changes made. 
 
-	*The section provides NLP based real time ‘Reports’ where we list out the health of the training dataset created by the user, alert if there are issues and recommend how to make it better.*
+	*The section provides NLP-based real-time ‘Reports’, where we list out the health of the training dataset created by the user, alert if there are issues and recommend ways to make it better.*
 
-The console gives you insight on the below with the help of tabular and statistical graphical display:
+Here are the list of items that get covered under Reports:
 
 	-	**Intent Distribution:**
 		It represents that number of intents created and the numerical proportions for the number of relevant sentences present in each of the intents and their respective percentages.
 
 		.. note::
-		   The relevant sentences are the sentence which contributes towards building better NLU model.
+		   The relevant sentences are those that contribute to building better a NLU model.
 
 		
 		.. image:: https://s3-ap-southeast-1.amazonaws.com/kontikilabs.com/alter-nlu-readthedocs/intent-distribution-1.png   
@@ -76,17 +76,17 @@ The console gives you insight on the below with the help of tabular and statisti
 		
 			.. image:: https://s3-ap-southeast-1.amazonaws.com/kontikilabs.com/alter-nlu-readthedocs/report-1.png   
 
-	-	**Examines the training dataset to extract the untagged entities:**
-		Lists out keywords which have been tagged as an entity in intent but, the same keyword also occurs untagged in the training sentence of another intent.
+	-	**Examining the training dataset to extract the untagged entities:**
+		Lists out keywords which have been tagged as an entity in intent but, the same keyword may also occurs untagged in the training sentence of another intent.
 		It also notifies the user that they might have skipped tagging the keyword as an entity in the other intent mentioned.
 
 			.. image:: https://s3-ap-southeast-1.amazonaws.com/kontikilabs.com/alter-nlu-readthedocs/untagged-entities.png   
 
 	-	**Listing out the limitations in the entity section:**
-		Reports about the name of the entities which have been defined, but the user might not have formed any training queries with it in the intent section. The other reason could be that the user might have mistakenly deleted the entity from the intent section but forgot to delete the same from the entity section.
+		It reports about the name of the entities that have been defined but have not been used by the user to form training queries in the intent section. It also reports when the user might have mistakenly deleted the entity from the intent section but forgotten to delete the same from the entity section
 
-	-	**Captures repetition of training sentence:**
-		Informs about the training sentence(s) which the user might have added in multiple intents by mistake. The console alerts this to the user with an error message at the top of the reports section.
+	-	**Capturing repetition of training sentence:**
+		It informs about the training sentence(s) which the user might have added in multiple intents by mistake. The console alerts this to the user with an error message at the top of the reports section.
 
 			.. image:: https://s3-ap-southeast-1.amazonaws.com/kontikilabs.com/alter-nlu-readthedocs/report-2.png   
 
