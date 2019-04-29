@@ -1,4 +1,4 @@
-.. image:: https://s3-ap-southeast-1.amazonaws.com/kontikilabs.com/alter-nlu-readthedocs/Alter_NLU_02.png  
+.. image:: https://docs.kontikilabs.com/img/Alter_NLU_02.png  
 
 ##############################################
 Building Chatbot/AI Assistant with Alter NLU
