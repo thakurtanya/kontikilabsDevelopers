@@ -33,11 +33,11 @@ Get Real-Time Report of Training Data if There’s Any Issue
 
 A dedicated reports page which gives you the insights of all the warnings and errors that might affect the training of the bot or make it perform less efficiently.
 
--	Presenting Intent Distribution in the form of a pie chart.
--	Figuring out the intents that require more training sentences.
--	Listing out the limitations in the entity section.
--	Examining the training dataset to extract the untagged entities.
--	Capturing repetition of training sentence.
+-	Presenting Intent Distribution in the form of a pie chart
+-	Figuring out the intents that require more training sentences
+-	Listing out the limitations in the entity section
+-	Examining the training dataset to extract untagged entities
+-	Capturing repetition of training sentence
 
 =================================================================
 Download the Training Dataset in 2 Formats - Alter NLU & RASA NLU

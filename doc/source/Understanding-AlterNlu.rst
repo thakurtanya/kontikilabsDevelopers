@@ -77,7 +77,7 @@ Here are the list of items that get covered under Reports:
 			.. image:: https://s3-ap-southeast-1.amazonaws.com/kontikilabs.com/alter-nlu-readthedocs/report-1.png   
 
 	-	**Examining the training dataset to extract the untagged entities:**
-		Lists out keywords which have been tagged as an entity in intent but, the same keyword may also occurs untagged in the training sentence of another intent.
+		Lists out keywords which have been tagged with an entity in intent but, the same keyword is untagged in the training sentence of another intent.
 		It also notifies the user that they might have skipped tagging the keyword as an entity in the other intent mentioned.
 
 			.. image:: https://s3-ap-southeast-1.amazonaws.com/kontikilabs.com/alter-nlu-readthedocs/untagged-entities.png   

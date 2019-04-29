@@ -59,10 +59,8 @@ A detailed explanation of the response and an example is given below:
 
 -	According to the context of the user query, the model successfully recognises the search product intent along with the confidence score.
 
--	This model handles *out-of-vocabulary* words’ to some extent. 
-	The term *‘out-of-vocabulary words’* refers to those words which are not present in the training data of the chatbot.
-	For instance, 
-	You trained in ALter NLU for the sentence: 
+-	This model handles *out-of-vocabulary* words to some extent. 
+	The term *‘out-of-vocabulary words’* refers to words that are not present in the training data of the chatbot. For instance, you trained in ALter NLU for the sentence: 
 	
 	*I want to purchase apple mobile worth 60k*
 	
@@ -72,8 +70,8 @@ A detailed explanation of the response and an example is given below:
 -	The **CRF model** helps is recognising the entity accurately, because it considers the sentence structure of the user query.
 
 -	The main goal of the **“parsed_value”** key in the response is to assist developers to directly use the key where needed. 
-	In the example above, the developer might need the exact value of entities such as “price”, which is in the user query for further usage. In this case it’s “1049k”.
+	In the example above, the developer might need the exact value of entities such as “price”, which is in the user query for further usage. In this case it is “1049k”.
 
--	Also, if you’re an existing user of Alter NLU, it needs to be pointed out that the “category” key in the response has been renamed to “name”.
+-	Also, if you are an existing user of Alter NLU, it needs to be pointed out that the “category” key in the response has been renamed to “name”.
 
 
